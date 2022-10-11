@@ -1,6 +1,5 @@
 import * as React from 'react';
 
-
 import TopApp from './components/topapp/TopApp';
 import Footer from './components/footer/Footer';
 
