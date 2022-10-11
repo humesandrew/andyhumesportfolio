@@ -165,7 +165,11 @@ const TopApp = () => {
               </DescriptionIcon>
               </Tooltip>
               <Tooltip title="Navigation">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+              <IconButton sx={{
+                  display: { p: 0, xs: "none", md: "flex" },
+                }} 
+                  className='andy' 
+                  onClick={handleOpenUserMenu}>
                 <Avatar alt="Andy Humes Portfolio" src={resumeData.image} />
               </IconButton>
               </Tooltip>
