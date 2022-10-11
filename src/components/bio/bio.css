@@ -1,6 +1,19 @@
 
 .bioContainer {
-    margin-top: 100px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-top: 5.5em;
+   
+}
+.bioCardBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.leftCard {
+    width: 49%;
+    height: 87vh;
+}
+
+.rightCard {
+    width: 49%;
+    height: 87vh;
 }
