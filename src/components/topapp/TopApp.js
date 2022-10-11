@@ -17,6 +17,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import DescriptionIcon from '@mui/icons-material/Description';
 
 import './topapp.css';
+import resumeData from "../../resumeData.js";
 
 const emailBtn = function() {
   window.open('mailto:humes.andrew@gmail.com')
@@ -152,7 +153,7 @@ const TopApp = () => {
               <DescriptionIcon onClick={handleOpenUserMenu} sx={{ p: 0 }}>
               </DescriptionIcon>
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+                <Avatar alt="Remy Sharp" src={resumeData.image} />
               </IconButton>
 
               <Menu
