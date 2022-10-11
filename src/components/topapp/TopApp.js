@@ -12,25 +12,25 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import EmailIcon from "@mui/icons-material/Email";
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import DescriptionIcon from '@mui/icons-material/Description';
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import DescriptionIcon from "@mui/icons-material/Description";
 
-import './topapp.css';
+import "./topapp.css";
 import resumeData from "../../resumeData.js";
 
-const emailBtn = function() {
-  window.open('mailto:humes.andrew@gmail.com')
+const emailBtn = function () {
+  window.open("mailto:humes.andrew@gmail.com");
 };
-const linkedInBtn = function() {
-  window.open('https://www.linkedin.com/in/andy-humes-72075559/')
+const linkedInBtn = function () {
+  window.open("https://www.linkedin.com/in/andy-humes-72075559/");
 };
-const gitHubBtn = function() {
-  window.open('https://github.com/humesandrew/')
+const gitHubBtn = function () {
+  window.open("https://github.com/humesandrew/");
 };
-const resumeBtn = function() {
+const resumeBtn = function () {
   window.open(resumeData.resume);
-}
+};
 
 const pages = ["Main", "Works", "Credentials"];
 const settings = ["Main", "Works", "Credentials"];
@@ -38,8 +38,6 @@ const settings = ["Main", "Works", "Credentials"];
 const TopApp = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
-
-
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -80,16 +78,18 @@ const TopApp = () => {
             </Typography>
 
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
-              <IconButton
-                size="large"
-                aria-label="account of current user"
-                aria-controls="menu-appbar"
-                aria-haspopup="true"
-                onClick={handleOpenNavMenu}
-                color="inherit"
-              >
-                <MenuIcon />
-              </IconButton>
+              <Tooltip title="Navigation">
+                <IconButton
+                  size="large"
+                  aria-label="navigation menu"
+                  aria-controls="menu-appbar"
+                  aria-haspopup="true"
+                  onClick={handleOpenNavMenu}
+                  color="inherit"
+                >
+                  <MenuIcon />
+                </IconButton>
+              </Tooltip>
               <Menu
                 id="menu-appbar"
                 anchorEl={anchorElNav}
@@ -146,32 +146,43 @@ const TopApp = () => {
               ))}
             </Box>
 
-            <Box className='rightBox' sx={{ flexGrow: 0 }}>
-            <Tooltip title="Email me">
-              <EmailIcon className='email' onClick={emailBtn} sx={{ p: 0 }}>
-              <span title='email me'></span>
-              </EmailIcon>
+            <Box className="rightBox" sx={{ flexGrow: 0 }}>
+              <Tooltip title="Email me">
+                <EmailIcon className="email" onClick={emailBtn} sx={{ p: 0 }}>
+                  <span title="email me"></span>
+                </EmailIcon>
               </Tooltip>
               <Tooltip title="LinkedIn profile">
-              <LinkedInIcon className='linkedIn' onClick={linkedInBtn} sx={{ p: 0 }}>
-              </LinkedInIcon>
+                <LinkedInIcon
+                  className="linkedIn"
+                  onClick={linkedInBtn}
+                  sx={{ p: 0 }}
+                ></LinkedInIcon>
               </Tooltip>
               <Tooltip title="GitHub profile">
-              <GitHubIcon className='gitHub' onClick={gitHubBtn} sx={{ p: 0 }}>
-              </GitHubIcon>
+                <GitHubIcon
+                  className="gitHub"
+                  onClick={gitHubBtn}
+                  sx={{ p: 0 }}
+                ></GitHubIcon>
               </Tooltip>
               <Tooltip title="Resume">
-              <DescriptionIcon className='resume' onClick={resumeBtn} sx={{ p: 0 }}>
-              </DescriptionIcon>
+                <DescriptionIcon
+                  className="resume"
+                  onClick={resumeBtn}
+                  sx={{ p: 0 }}
+                ></DescriptionIcon>
               </Tooltip>
               <Tooltip title="Navigation">
-              <IconButton sx={{
-                  display: { p: 0, xs: "none", md: "flex" },
-                }} 
-                  className='andy' 
-                  onClick={handleOpenUserMenu}>
-                <Avatar alt="Andy Humes Portfolio" src={resumeData.image} />
-              </IconButton>
+                <IconButton
+                  sx={{
+                    display: { p: 0, xs: "none", md: "flex" },
+                  }}
+                  className="andy"
+                  onClick={handleOpenUserMenu}
+                >
+                  <Avatar alt="Andy Humes Portfolio" src={resumeData.image} />
+                </IconButton>
               </Tooltip>
               <Menu
                 sx={{ mt: "45px" }}
