@@ -6,9 +6,14 @@
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
+    padding: 5px;
 }
 
 .email {cursor: pointer;}
 .linkedIn {cursor: pointer;}
 .gitHub {cursor: pointer;}
 .resume {cursor: pointer;}
+
+
+
+
