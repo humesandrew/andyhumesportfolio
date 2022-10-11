@@ -81,7 +81,7 @@ const TopApp = () => {
               <Tooltip title="Navigation">
                 <IconButton
                   size="large"
-                  aria-label="account of current user"
+                  aria-label="navigation menu"
                   aria-controls="menu-appbar"
                   aria-haspopup="true"
                   onClick={handleOpenNavMenu}
