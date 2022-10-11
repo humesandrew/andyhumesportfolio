@@ -4,3 +4,18 @@
     padding: 5px;
 }
 
+.iconDiv {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.email {
+    cursor: pointer;
+  }
+  .linkedIn {
+    cursor: pointer;
+  }
+  .gitHub {
+    cursor: pointer;
+  }
