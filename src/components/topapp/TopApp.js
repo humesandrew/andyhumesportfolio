@@ -12,15 +12,22 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import EmailIcon from "@mui/icons-material/Email";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import DescriptionIcon from '@mui/icons-material/Description';
 
 import './topapp.css';
-
+const emailBtn = function() {
+  window.open('mailto:humes.andrew@gmail.com')
+}
 const pages = ["Main", "Works", "Credentials"];
 const settings = ["Main", "Works", "Credentials"];
 
 const TopApp = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
+
+
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -128,18 +135,14 @@ const TopApp = () => {
             </Box>
 
             <Box className='rightBox' sx={{ flexGrow: 0 }}>
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
-              </IconButton>
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
-              </IconButton>
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
-              </IconButton>
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
-              </IconButton>
+              <EmailIcon className='email' onClick={emailBtn} sx={{ p: 0 }}>
+              </EmailIcon>
+              <LinkedInIcon onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+              </LinkedInIcon>
+              <GitHubIcon onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+              </GitHubIcon>
+              <DescriptionIcon onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+              </DescriptionIcon>
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
               </IconButton>
