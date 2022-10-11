@@ -149,7 +149,6 @@ const TopApp = () => {
             <Box className="rightBox" sx={{ flexGrow: 0 }}>
               <Tooltip title="Email me">
                 <EmailIcon className="email" onClick={emailBtn} sx={{ p: 0 }}>
-                  <span title="email me"></span>
                 </EmailIcon>
               </Tooltip>
               <Tooltip title="LinkedIn profile">
