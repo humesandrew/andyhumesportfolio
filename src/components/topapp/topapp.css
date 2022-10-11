@@ -1,0 +1,8 @@
+
+.rightBox {
+    background-color: green;
+    /* padding: 10px; */
+    width: 15%;
+    display: inline-flex;
+    justify-content: space-between;
+}
