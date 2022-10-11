@@ -17,9 +17,17 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import DescriptionIcon from '@mui/icons-material/Description';
 
 import './topapp.css';
+
 const emailBtn = function() {
   window.open('mailto:humes.andrew@gmail.com')
-}
+};
+const linkedInBtn = function() {
+  window.open('https://www.linkedin.com/in/andy-humes-72075559/')
+};
+const gitHubBtn = function() {
+  window.open('https://github.com/humesandrew/')
+};
+
 const pages = ["Main", "Works", "Credentials"];
 const settings = ["Main", "Works", "Credentials"];
 
@@ -137,9 +145,9 @@ const TopApp = () => {
             <Box className='rightBox' sx={{ flexGrow: 0 }}>
               <EmailIcon className='email' onClick={emailBtn} sx={{ p: 0 }}>
               </EmailIcon>
-              <LinkedInIcon onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+              <LinkedInIcon className='linkedIn' onClick={linkedInBtn} sx={{ p: 0 }}>
               </LinkedInIcon>
-              <GitHubIcon onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+              <GitHubIcon className='gitHub' onClick={gitHubBtn} sx={{ p: 0 }}>
               </GitHubIcon>
               <DescriptionIcon onClick={handleOpenUserMenu} sx={{ p: 0 }}>
               </DescriptionIcon>
