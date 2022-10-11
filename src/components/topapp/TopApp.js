@@ -28,6 +28,9 @@ const linkedInBtn = function() {
 const gitHubBtn = function() {
   window.open('https://github.com/humesandrew/')
 };
+const resumeBtn = function() {
+  window.open(resumeData.resume);
+}
 
 const pages = ["Main", "Works", "Credentials"];
 const settings = ["Main", "Works", "Credentials"];
@@ -144,18 +147,28 @@ const TopApp = () => {
             </Box>
 
             <Box className='rightBox' sx={{ flexGrow: 0 }}>
+            <Tooltip title="Email me">
               <EmailIcon className='email' onClick={emailBtn} sx={{ p: 0 }}>
+              <span title='email me'></span>
               </EmailIcon>
+              </Tooltip>
+              <Tooltip title="LinkedIn profile">
               <LinkedInIcon className='linkedIn' onClick={linkedInBtn} sx={{ p: 0 }}>
               </LinkedInIcon>
+              </Tooltip>
+              <Tooltip title="GitHub profile">
               <GitHubIcon className='gitHub' onClick={gitHubBtn} sx={{ p: 0 }}>
               </GitHubIcon>
-              <DescriptionIcon onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+              </Tooltip>
+              <Tooltip title="Resume">
+              <DescriptionIcon className='resume' onClick={resumeBtn} sx={{ p: 0 }}>
               </DescriptionIcon>
+              </Tooltip>
+              <Tooltip title="Navigation">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src={resumeData.image} />
+                <Avatar alt="Andy Humes Portfolio" src={resumeData.image} />
               </IconButton>
-
+              </Tooltip>
               <Menu
                 sx={{ mt: "45px" }}
                 id="menu-appbar"
