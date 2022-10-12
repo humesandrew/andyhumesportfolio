@@ -3,8 +3,8 @@ import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import Container from '@mui/material/Container';
 
-import './bio.css';
-
+import './bio.scss';
+import resumeData from "../../resumeData.js";
 
 
 import { styled } from '@mui/material/styles';
@@ -25,10 +25,17 @@ export default function Bio() {
     <Box className="bioContainer" sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
         <Grid item md={6} xs={12}>
-          <Item >Left item</Item>
+          <Item >
+            <img alt='Andy Humes - Junior Developer' src={resumeData.image} className='andyPic'>
+        
+          </img> 
+          
+          <h1>Welcome to my portfolio.</h1>
+          </Item>
         </Grid>
         <Grid item md={6} xs={12}>
-          <Item >Right item</Item>
+          <Item >This will be a biography sort of thing. If there's room, I might put the links for education etc.
+          </Item>
         </Grid>
       
       </Grid>
