@@ -32,8 +32,8 @@ const resumeBtn = function () {
   window.open(resumeData.resume);
 };
 
-const pages = ["Main", "Works", "Credentials"];
-const settings = ["Main", "Works", "Credentials"];
+const pages = ["Bio", "Works", "Credentials"];
+const settings = ["Bio", "Works", "Credentials"];
 
 const TopApp = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
