@@ -14,17 +14,7 @@ function App() {
     <h1>This is the Body</h1>
     <h1>This is the Body</h1>
     <h1>This is the Body</h1>
-    <h1>This is the Body</h1>
-    <h1>This is the Body</h1>
-    <h1>This is the Body</h1>
-    <h1>This is the Body</h1>
-    <h1>This is the Body</h1>
-    <h1>This is the Body</h1>
-    <h1>This is the Body</h1>
-    <h1>This is the Body</h1>
-    <h1>This is the Body</h1>
-    <h1>This is the Body</h1>
-    <h1>This is the Body</h1>
+   
   
   <Footer />
     </>

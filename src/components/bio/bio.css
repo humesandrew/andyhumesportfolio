@@ -6,14 +6,6 @@
 .bioCardBox {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-.leftCard {
-    width: 49%;
-    height: 87vh;
-}
-
-.rightCard {
-    width: 49%;
-    height: 87vh;
+    
+    
 }
