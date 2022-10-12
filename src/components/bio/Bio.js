@@ -24,10 +24,10 @@ export default function Bio() {
   return (
     <Box className="bioContainer" sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
-        <Grid item xs={6}>
+        <Grid item md={6} xs={12}>
           <Item >Left item</Item>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item md={6} xs={12}>
           <Item >Right item</Item>
         </Grid>
       
