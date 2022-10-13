@@ -5,6 +5,7 @@ import Container from "@mui/material/Container";
 
 import "./bio.scss";
 import resumeData from "../../resumeData.js";
+import QuiltedImageList from "../quiltedimagelist/QuiltedImageList";
 
 import { styled } from "@mui/material/styles";
 
@@ -35,7 +36,7 @@ export default function Bio() {
           </Item>
         </Grid>
         <Grid item md={7} sm={12} xs={12} className="rightBioGrid">
-          <Item>
+         
             <p>
               Determined, junior level coder versed in many coding languages
               with proficiency in the front end frameworks. Offers a unique
@@ -43,7 +44,7 @@ export default function Bio() {
               skills, complex systems, and analysis. Strong customer service
               background from many years in health care.
             </p>
-            <br></br>
+           
             <p>
               Determined, junior level coder versed in many coding languages
               with proficiency in the front end frameworks. Offers a unique
@@ -51,9 +52,9 @@ export default function Bio() {
               skills, complex systems, and analysis. Strong customer service
               background from many years in health care.
             </p>
-
+<QuiltedImageList />
             
-          </Item>
+          
         </Grid>
       </Grid>
     </Box>
