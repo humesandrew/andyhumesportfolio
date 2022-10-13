@@ -24,7 +24,7 @@ export default function Bio() {
   return (
     <Box className="bioContainer" sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
-        <Grid item md={6} xs={12}>
+        <Grid item md={5} xs={12}>
           <Item >
             <img alt='Andy Humes - Junior Developer' src={resumeData.image} className='andyPic'>
         
@@ -33,8 +33,18 @@ export default function Bio() {
           <h1>Welcome to my portfolio.</h1>
           </Item>
         </Grid>
-        <Grid item md={6} xs={12}>
-          <Item >This will be a biography sort of thing. If there's room, I might put the links for education etc.
+        <Grid item md={7} xs={12}>
+          <Item >
+         <p> Determined, junior level coder versed in many coding languages with
+proficiency in the front end frameworks. Offers a unique adaptability,
+stemming from a heavy background in technical skills, complex systems,
+and analysis. Strong customer service background from many years in
+health care.</p>
+<p>Determined, junior level coder versed in many coding languages with
+proficiency in the front end frameworks. Offers a unique adaptability,
+stemming from a heavy background in technical skills, complex systems,
+and analysis. Strong customer service background from many years in
+health care.</p>
           </Item>
         </Grid>
       

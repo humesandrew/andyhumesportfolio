@@ -132,7 +132,7 @@ const TopApp = () => {
                 textDecoration: "none",
               }}
             >
-              Andy Humes - Junior Dev
+              Andy Humes 
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
               {pages.map((page) => (
