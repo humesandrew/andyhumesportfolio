@@ -8,7 +8,7 @@ import "./quiltedimagelist.css";
 
 export default function QuiltedImageList() {
   return (
-    <ImageList className="test" sx={{ width: 700, height: 450 }} variant="woven" cols={3} gap={8}>
+    <ImageList className="test" sx={{ width: "100%" }} variant="woven" cols={5} gap={5}>
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
           <img
@@ -44,9 +44,6 @@ const itemData = [
     img: 'https://images.unsplash.com/photo-1574180045827-681f8a1a9622',
     title: 'Chairs',
   },
-  {
-    img: 'https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62',
-    title: 'Candle',
-  },
+
   
 ];

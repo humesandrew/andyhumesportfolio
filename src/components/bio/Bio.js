@@ -52,6 +52,7 @@ export default function Bio() {
               skills, complex systems, and analysis. Strong customer service
               background from many years in health care.
             </p>
+            <br></br>
 <QuiltedImageList />
             
           
