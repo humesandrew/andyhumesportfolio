@@ -55,7 +55,7 @@ export default function Bio() {
             <br></br>
 <QuiltedImageList />
             
-          
+          <br></br>
         </Grid>
       </Grid>
     </Box>

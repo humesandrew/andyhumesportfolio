@@ -21,7 +21,8 @@ export default function QuiltedImageList() {
             <ImageListItemBar 
             className="imageTitleText"
             title={item.title}
-            subtitle={item.author} />
+            subtitle={item.author}></ImageListItemBar> 
+           
         </ImageListItem>
       ))}
     </ImageList>
