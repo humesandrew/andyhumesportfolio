@@ -8,7 +8,7 @@ import "./quiltedimagelist.css";
 
 export default function QuiltedImageList() {
   return (
-    <ImageList className="test" sx={{ width: "100%" }} variant="woven" cols={5} gap={5}>
+    <ImageList className="test" sx={{ width: "100%", height: 266 }} variant="woven" cols={5} gap={5}>
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
           <img
@@ -25,23 +25,23 @@ export default function QuiltedImageList() {
 
 const itemData = [
   {
-    img: 'https://images.unsplash.com/photo-1549388604-817d15aa0110',
+    img: 'https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.gettyimages.com.au%2Fgi-resources%2Fimages%2Ffrontdoor%2Fcreative%2FPanoramicImagesRM%2FFD_image.jpg&f=1',
     title: 'Bed',
   },
   {
-    img: 'https://images.unsplash.com/photo-1563298723-dcfebaa392e3',
+    img: 'https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fimagejournal.org%2Fwp-content%2Fuploads%2Fbb-plugin%2Fcache%2F23466317216_b99485ba14_o-panorama.jpg&f=1',
     title: 'Kitchen',
   },
   {
-    img: 'https://images.unsplash.com/photo-1523413651479-597eb2da0ad6',
+    img: 'https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.lokeshdhakar.com%2Fprojects%2Flightbox2%2Fimages%2Fimage-4.jpg&f=1',
     title: 'Sink',
   },
   {
-    img: 'https://images.unsplash.com/photo-1525097487452-6278ff080c31',
+    img: 'https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fbpucette.b.p.pic.centerblog.net%2Ffv86ll9r.jpg&f=1',
     title: 'Books',
   },
   {
-    img: 'https://images.unsplash.com/photo-1574180045827-681f8a1a9622',
+    img: 'https://images.pexels.com/photos/932638/pexels-photo-932638.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
     title: 'Chairs',
   },
 
