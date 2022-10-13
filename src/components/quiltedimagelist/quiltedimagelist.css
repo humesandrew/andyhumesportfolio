@@ -1,0 +1,10 @@
+.imageTitleText {
+
+    margin-bottom: 30px;
+    overflow: break-word;
+  }
+
+  .imageTitleText:hover {
+    color: #fff;
+    text-shadow: 0 0 10px white;
+  }
