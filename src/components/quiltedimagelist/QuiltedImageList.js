@@ -9,7 +9,7 @@ import "./quiltedimagelist.css";
 
 export default function QuiltedImageList() {
   return (
-    <ImageList className="test" sx={{ width: "100%", height: 266 }} variant="woven" cols={5} gap={5}>
+    <ImageList sx={{ width: "100%", height: 266 }} variant="woven" cols={5} gap={5}>
       {itemData.map((item) => (
         <ImageListItem key={item.img} className="listItem">
           <img
