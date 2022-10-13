@@ -35,24 +35,30 @@ export default function Bio() {
         </Grid>
         <Grid item md={7} xs={12}>
           <Item >
-         Determined, junior level coder versed in many coding languages with
+         <p>Determined, junior level coder versed in many coding languages with
 proficiency in the front end frameworks. Offers a unique adaptability,
 stemming from a heavy background in technical skills, complex systems,
 and analysis. Strong customer service background from many years in
-health care.
+health care.</p>
 <br></br>
-Determined, junior level coder versed in many coding languages with
+<p>Determined, junior level coder versed in many coding languages with
 proficiency in the front end frameworks. Offers a unique adaptability,
 stemming from a heavy background in technical skills, complex systems,
 and analysis. Strong customer service background from many years in
-health care.
-<div className="gallery">
+health care.</p>
 
-<h1>Hello</h1>
-<h1>Hello</h1>
-<h1>Hello</h1>
-<h1>Hello</h1>
-</div>
+<Grid container spacing={3}>
+  <Grid item xs={4}>
+    <Item>xs</Item>
+  </Grid>
+  <Grid item xs={4}>
+    <Item>xs=6</Item>
+  </Grid>
+  <Grid item xs={4}>
+    <Item>xs</Item>
+  </Grid>
+</Grid>
+        
 
           </Item>
         </Grid>
