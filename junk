@@ -1,28 +1,37 @@
+this is stuff from working with the hexagons on bio page
 
-.bioContainer {
-    margin-top: 5.5em;
+<Grid container spacing={3}>
+              <Grid item xs={6} sm={6} md={4} className="educationHex">
+                <Item>
+                  <div class="hexagon">
+                    Education
+                    <div class="face1"></div>
+                    <div class="face2"></div>
+                  </div>
+                </Item>
+              </Grid>
+              <Grid item xs={6} sm={6} md={4} className="volunteerHex">
+                <Item>
+                  <div class="hexagon">
+                    Volunteer
+                    <div class="face1"></div>
+                    <div class="face2"></div>
+                  </div>
+                </Item>
+              </Grid>
+              <Grid item xs={6} sm={6} md={4} className="publicationHex">
+                <Item>
+                  <div class="hexagon">
+                    Publication
+                    <div class="face1"></div>
+                    <div class="face2"></div>
+                  </div>
+                </Item>
+              </Grid>
+            </Grid>
 
-}
-.bioCardBox {
-    display: flex;
-    flex-wrap: wrap;   
-}
 
-.leftBioGrid {
-  height: 100%;
-}
-// .rightBioGrid {
-//   height: 100%;
-// }
-
-.andyPic {
-    border-radius: 25%;
-    max-width: 47%;
-  height: auto;
-  
-}
-
-
+Hexagon css 
 .gallery{
     position:relative;
     height:75%;
