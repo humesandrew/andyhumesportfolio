@@ -35,16 +35,25 @@ export default function Bio() {
         </Grid>
         <Grid item md={7} xs={12}>
           <Item >
-         <p> Determined, junior level coder versed in many coding languages with
+         Determined, junior level coder versed in many coding languages with
 proficiency in the front end frameworks. Offers a unique adaptability,
 stemming from a heavy background in technical skills, complex systems,
 and analysis. Strong customer service background from many years in
-health care.</p>
-<p>Determined, junior level coder versed in many coding languages with
+health care.
+<br></br>
+Determined, junior level coder versed in many coding languages with
 proficiency in the front end frameworks. Offers a unique adaptability,
 stemming from a heavy background in technical skills, complex systems,
 and analysis. Strong customer service background from many years in
-health care.</p>
+health care.
+<div className="gallery">
+
+<h1>Hello</h1>
+<h1>Hello</h1>
+<h1>Hello</h1>
+<h1>Hello</h1>
+</div>
+
           </Item>
         </Grid>
       
