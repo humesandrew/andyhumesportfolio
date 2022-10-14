@@ -90,6 +90,7 @@ export default function Works() {
         max-width="100%"
         variant="scrollable"
         value={value}
+        wrap="wrap"
         onChange={handleChange}
         aria-label="Vertical tabs example"
         sx={{ borderRight: 1, borderColor: "divider" }}
