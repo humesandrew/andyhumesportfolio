@@ -15,7 +15,6 @@ import DaySchedulerItem from "../dayscheduleritem/DaySchedulerItem";
 import EmployeeDirItem from "../employeediritem/EmployeeDirItem";
 
 import "./works.css";
-import resumeData from "../../resumeData.js";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;

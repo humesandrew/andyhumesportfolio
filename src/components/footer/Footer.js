@@ -17,9 +17,7 @@ const linkedInBtn = function () {
 const gitHubBtn = function () {
   window.open("https://github.com/humesandrew/");
 };
-const resumeBtn = function () {
-  window.open(resumeData.resume);
-};
+
 
 
 export default function Footer() {
