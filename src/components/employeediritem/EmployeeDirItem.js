@@ -22,11 +22,11 @@ export default function EmployeeDirItem() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Lizard
+          {resumeData.project[4].name}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+          {resumeData.project[4].description}
+          <p>Technologies used: {resumeData.project[4].technologies}</p>
         </Typography>
       </CardContent>
       <CardActions>
