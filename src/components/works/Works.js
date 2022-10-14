@@ -88,20 +88,21 @@ export default function Works() {
      
       <Tabs
         orientation="vertical"
+        max-width="100%"
         variant="scrollable"
         value={value}
         onChange={handleChange}
         aria-label="Vertical tabs example"
         sx={{ borderRight: 1, borderColor: "divider" }}
       >
-        <Tab label="Item One" {...a11yProps(0)} />
-        <Tab label="Item Two" {...a11yProps(1)} />
-        <Tab label="Item Three" {...a11yProps(2)} />
-        <Tab label="Item Four" {...a11yProps(3)} />
-        <Tab label="Item Five" {...a11yProps(4)} />
-        <Tab label="Item Six" {...a11yProps(5)} />
-        <Tab label="Item Seven" {...a11yProps(6)} />
-        <Tab label="Item Eight" {...a11yProps(7)} />
+        <Tab label="Java4Java" {...a11yProps(0)} />
+        <Tab label="ChartMD" {...a11yProps(1)} />
+        <Tab label="Belly-Buster" {...a11yProps(2)} />
+        <Tab label="Portfolio: JS" {...a11yProps(3)} />
+        <Tab label="E-Commerce" {...a11yProps(4)} />
+        <Tab label="Tic-Tac-React" {...a11yProps(5)} />
+        <Tab label="Scheduler" {...a11yProps(6)} />
+        <Tab label="Employee Directory" {...a11yProps(7)} />
       </Tabs>
       <TabPanel value={value} index={0}>
         <J4JItem />

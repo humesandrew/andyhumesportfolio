@@ -31,8 +31,8 @@ export default function J4JItem() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Deployed</Button>
-        <Button size="small">Code</Button>
+        <Button size="small"><a href={resumeData.featured[0].url} target="_blank" rel="noreferrer">Deployed</a></Button>
+        <Button size="small"><a href={resumeData.featured[0].url2} target="_blank" rel="noreferrer">Code</a></Button>
       </CardActions>
     </Card>
   );
