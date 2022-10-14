@@ -7,32 +7,31 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
 
-import "./j4jitem.css";
+import "./bellybusteritem.css";
 import resumeData from "../../resumeData.js";
 
 
-export default function J4JItem() {
+export default function BellyBusterItem() {
   return (
     <Card className="worksItemCard" sx={{ maxWidth: 800 }}>
       <CardMedia
         component="img"
         height="140"
-        image={resumeData.featured[0].image}
+        image={resumeData.featured[2].image}
         alt="green iguana"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          {resumeData.featured[0].name}
-          
+          Lizard
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          {resumeData.featured[0].description}
-          <p>Technologies used: {resumeData.featured[0].technologies}</p>
+          Lizards are a widespread group of squamate reptiles, with over 6,000
+          species, ranging across all continents except Antarctica
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Deployed</Button>
-        <Button size="small">Code</Button>
+        <Button size="small">Share</Button>
+        <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
   );
