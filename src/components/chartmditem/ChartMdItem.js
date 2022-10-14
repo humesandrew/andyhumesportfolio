@@ -7,13 +7,13 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
 
-import "./worksitem.css";
+import "./chartmditem.css";
 import resumeData from "../../resumeData.js";
 
 
-export default function WorksItem() {
+export default function ChartMdItem() {
   return (
-    <Card className="worksItemCard" sx={{ maxWidth: 700 }}>
+    <Card className="worksItemCard" sx={{ maxWidth: 800 }}>
       <CardMedia
         component="img"
         height="140"

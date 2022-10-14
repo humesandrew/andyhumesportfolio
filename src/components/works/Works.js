@@ -5,7 +5,8 @@ import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
-import WorksItem from "../worksitem/WorksItem"
+import ChartMdItem from "../chartmditem/ChartMdItem";
+import J4JItem from "../j4jitem/J4JItem";
 
 import "./works.css";
 import resumeData from "../../resumeData.js";
@@ -66,7 +67,7 @@ export default function Works() {
                 color: "black",
                 textDecoration: "none",
               }}
-            > Hello
+            > Works
               </Typography>
       <Box
       sx={{
@@ -97,10 +98,10 @@ export default function Works() {
         <Tab label="Item Eight" {...a11yProps(7)} />
       </Tabs>
       <TabPanel value={value} index={0}>
-        {resumeData.featured[0].name}
+        <J4JItem />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <WorksItem /> 
+        <ChartMdItem /> 
       </TabPanel>
       <TabPanel value={value} index={2}>
         Item Three
