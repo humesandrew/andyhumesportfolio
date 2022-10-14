@@ -30,8 +30,8 @@ export default function BellyBusterItem() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+        <Button size="small"><a href={resumeData.featured[2].url} target="_blank" rel="noreferrer">Deployed</a></Button>
+        <Button size="small"><a href={resumeData.featured[2].url2} target="_blank" rel="noreferrer">Code</a></Button>
       </CardActions>
     </Card>
   );
