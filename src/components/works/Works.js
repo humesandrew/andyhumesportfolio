@@ -5,6 +5,7 @@ import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
+import WorksItem from "../worksitem/WorksItem"
 
 import "./works.css";
 import resumeData from "../../resumeData.js";
@@ -50,7 +51,24 @@ export default function Works() {
   };
 
   return (
-    <Container><Box
+    <Container className="worksContainer">
+      <Typography
+              variant="h3"
+              noWrap
+              component="a"
+              href="/"
+              sx={{
+                
+                display: { xs: "flex", md: "flex" },
+                fontFamily: "monospace",
+                fontWeight: 700,
+                letterSpacing: ".3rem",
+                color: "black",
+                textDecoration: "none",
+              }}
+            > Hello
+              </Typography>
+      <Box
       sx={{
         flexGrow: 1,
         bgcolor: "background.paper",
@@ -60,6 +78,7 @@ export default function Works() {
       md={{height: "75%", width: "75%"}}
     
     >
+     
       <Tabs
         orientation="vertical"
         variant="scrollable"
@@ -78,10 +97,10 @@ export default function Works() {
         <Tab label="Item Eight" {...a11yProps(7)} />
       </Tabs>
       <TabPanel value={value} index={0}>
-        Item One
+        {resumeData.featured[0].name}
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Maybe I will try importing a component here
+        <WorksItem /> 
       </TabPanel>
       <TabPanel value={value} index={2}>
         Item Three
