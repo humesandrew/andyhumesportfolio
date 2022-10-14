@@ -22,11 +22,11 @@ export default function BellyBusterItem() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Lizard
+          {resumeData.featured[2].name}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+          {resumeData.featured[2].description}
+          <p>Technologies used: {resumeData.featured[2].technologies}</p>
         </Typography>
       </CardContent>
       <CardActions>

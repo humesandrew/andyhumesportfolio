@@ -199,7 +199,7 @@ let resumeData = {
         {
           "id":"6",
           "name":"Tic-Tac-React",
-          "description":"Tic-tac-toe using React.",
+          "description":"A tic-tac-toe application using React, for your enjoyment.",
           "technologies":"React",
           "url":"https://humestictacreact.herokuapp.com/",
           "url2":"https://github.com/humesandrew/ticTacReact",
