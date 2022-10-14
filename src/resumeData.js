@@ -198,7 +198,7 @@ let resumeData = {
         },
         {
           "id":"6",
-          "name":"Tic-Tac-Reacts",
+          "name":"Tic-Tac-React",
           "description":"Tic-tac-toe using React.",
           "technologies":"React",
           "url":"https://humestictacreact.herokuapp.com/",

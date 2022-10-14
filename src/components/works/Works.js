@@ -7,6 +7,12 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import ChartMdItem from "../chartmditem/ChartMdItem";
 import J4JItem from "../j4jitem/J4JItem";
+import BellyBusterItem from "../bellybusteritem/BellyBusterItem";
+import JsPortfolioItem from "../jsportfolioitem/JsPortfolioItem";
+import EcommerceItem from "../ecommerceitem/EcommerceItem";
+import TicTacReact from "../tictacreact/TicTacReact";
+import DaySchedulerItem from "../dayscheduleritem/DaySchedulerItem";
+import EmployeeDirItem from "../employeediritem/EmployeeDirItem";
 
 import "./works.css";
 import resumeData from "../../resumeData.js";
@@ -104,22 +110,22 @@ export default function Works() {
         <ChartMdItem /> 
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Item Three
+        <BellyBusterItem />
       </TabPanel>
       <TabPanel value={value} index={3}>
-        Item Four
+        <JsPortfolioItem />
       </TabPanel>
       <TabPanel value={value} index={4}>
-        Item Five
+        <EcommerceItem />
       </TabPanel>
       <TabPanel value={value} index={5}>
-        Item Six
+        <TicTacReact />
       </TabPanel>
       <TabPanel value={value} index={6}>
-        Item Seven
+        <DaySchedulerItem />
       </TabPanel>
-      <TabPanel value={value} index={6}>
-        Item Eight
+      <TabPanel value={value} index={7}>
+        <EmployeeDirItem />
       </TabPanel>
     </Box>
     </Container>
