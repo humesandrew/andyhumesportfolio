@@ -42,32 +42,57 @@ export default function Credentials() {
             >Skills
               </Typography>
 
-              <Box className="credentialsLeft" sx={{ flexGrow: 1 }}>
-      <Grid container spacing={2} className="leftCredentialsGrid">
-        <Grid item md={5} sm={12} xs={12}>
+              <Box className="credentialsBox" sx={{ flexGrow: 1 }}>
+      <Grid container spacing={2} className="credentialsLeft">
+        <Grid item md={9} sm={12} xs={12} className="credentialsGrid">
           <Item>
        
 
-            <h1>Welcome to my portfolio.</h1>
+            <h1>These will be skills icons</h1>
           </Item>
         </Grid>
-        <Grid item md={7} sm={12} xs={12} className="rightCredentialsGrid">
+        <Grid item md={3} sm={12} xs={12} className="rightCredentialsGrid">
          
-            <p>
-              Determined, junior level coder versed in many coding languages
-              with proficiency in the front end frameworks. Offers a unique
-              adaptability, stemming from a heavy background in technical
-              skills, complex systems, and analysis. Strong customer service
-              background from many years in health care.
-            </p>
+        <Typography
+              variant="h5"
+              noWrap
+              sx={{
+                
+                display: { xs: "flex", md: "flex" },
+                fontFamily: "monospace",
+                fontWeight: 700,
+                letterSpacing: ".3rem",
+                color: "black",
+                textDecoration: "none",
+              }}
+            >Education
+              </Typography>
+         <Grid item md={12} sm={12} xs={12}>
+          <Item>
+       
+
+            <h4 className="duItem">University of Denver</h4>
+            <p className="duText">Certificate of Completion: Full Stack Web Development </p>
+          </Item>
+        </Grid>
            
-            <p>
-              Determined, junior level coder versed in many coding languages
-              with proficiency in the front end frameworks. Offers a unique
-              adaptability, stemming from a heavy background in technical
-              skills, complex systems, and analysis. Strong customer service
-              background from many years in health care.
-            </p>
+        <Grid item md={12} sm={12} xs={12}>
+          <Item>
+       
+
+            <h4 className="csuItem">Colorado State University</h4>
+            <p className="csuText">Master of Biomedical Science</p>
+          </Item>
+        </Grid>
+        <Grid item md={12} sm={12} xs={12}>
+          <Item>
+       
+
+            <h4 className="osuItem">The Ohio State University</h4>
+            <p className="osuText">Bachelor of Science: Molecular Biology</p>
+            <p className="osuText">Bachelor of Arts: Anthropology</p>
+          </Item>
+        </Grid>
         </Grid>
         </Grid>
         </Box>
