@@ -24,7 +24,8 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function Credentials() {
   return (
-    <Container className="credentialsContainer">
+    // <Container className="credentialsContainer">
+    <div>
       <Typography
               variant="h3"
               noWrap
@@ -38,6 +39,7 @@ export default function Credentials() {
                 letterSpacing: ".3rem",
                 color: "black",
                 textDecoration: "none",
+                marginTop: "4%",
               }}
             >Skills
               </Typography>
@@ -69,7 +71,12 @@ export default function Credentials() {
               </Typography>
          <Grid item md={12} sm={12} xs={12}>
           <Item>
-       
+          <img
+              alt="Andy Humes - Junior Developer"
+              src="../img/dulogosmall.png"
+              className="duPic"
+             
+            ></img>
 
             <h4 className="duItem">University of Denver</h4>
             <p className="duText">Certificate of Completion: Full Stack Web Development </p>
@@ -78,7 +85,12 @@ export default function Credentials() {
            
         <Grid item md={12} sm={12} xs={12}>
           <Item>
-       
+          <img
+              alt="Andy Humes - Junior Developer"
+              src="../img/csulogosmall.png"
+              className="csuPic"
+             
+            ></img>
 
             <h4 className="csuItem">Colorado State University</h4>
             <p className="csuText">Master of Biomedical Science</p>
@@ -87,7 +99,12 @@ export default function Credentials() {
         <Grid item md={12} sm={12} xs={12}>
           <Item>
        
-
+          <img
+              alt="Andy Humes - Junior Developer"
+              src="../img/osulogosmall.png"
+              className="osuPic"
+             
+            ></img>
             <h4 className="osuItem">The Ohio State University</h4>
             <p className="osuText">Bachelor of Science: Molecular Biology</p>
             <p className="osuText">Bachelor of Arts: Anthropology</p>
@@ -96,6 +113,7 @@ export default function Credentials() {
         </Grid>
         </Grid>
         </Box>
-    </Container>
+  
+    </div>
   );
 }
