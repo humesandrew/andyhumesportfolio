@@ -72,7 +72,7 @@ export default function Works() {
                 color: "black",
                 textDecoration: "none",
               }}
-            > Works
+            >Works
               </Typography>
       <Box
       sx={{
