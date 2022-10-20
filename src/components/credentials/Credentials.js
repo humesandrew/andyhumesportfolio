@@ -1,12 +1,12 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import Container from "@mui/material/Container";
+// import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 
 import "./credentials.css";
-import resumeData from "../../resumeData.js";
+// import resumeData from "../../resumeData.js";
 import SkillsList from "../skillslist/SkillsList";
 
 import { styled } from "@mui/material/styles";
