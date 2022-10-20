@@ -42,7 +42,7 @@ const itemData = [
   {
     img: 'https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fimagejournal.org%2Fwp-content%2Fuploads%2Fbb-plugin%2Fcache%2F23466317216_b99485ba14_o-panorama.jpg&f=1',
     title: 'Technologies',
-    href: "https://www.cnn.com"
+    href: "https://www.espn.com"
     
   },
   {
