@@ -9,12 +9,11 @@ import Link from '@mui/material/Link';
 import "./quiltedimagelist.css";
 import resumeData from "../../resumeData.js";
 
-
 export default function QuiltedImageList() {
   return (
     <ImageList sx={{ width: "100%", height: 266 }} variant="woven" cols={5} gap={5}>
       {itemData.map((item) => (
-        <ImageListItem key={item.img} className="listItem" button component="a" href={item.href}
+        <ImageListItem key={item.img} className="listItem" button component={Link} href={item.href}
         >
           <img
             src={`${item.img}?w=161&fit=crop&auto=format`}
@@ -25,7 +24,8 @@ export default function QuiltedImageList() {
             <ImageListItemBar 
             className="imageTitleText"
             title={item.title}
-            subtitle={item.author}></ImageListItemBar> 
+            subtitle={item.author}>
+            </ImageListItemBar> 
            
         </ImageListItem>
       ))}
@@ -42,7 +42,7 @@ const itemData = [
   {
     img: 'https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fimagejournal.org%2Fwp-content%2Fuploads%2Fbb-plugin%2Fcache%2F23466317216_b99485ba14_o-panorama.jpg&f=1',
     title: 'Technologies',
-    href: `${window.open('http://www.google.com')}`
+    href: "https://www.google.com"
     
   },
   {
