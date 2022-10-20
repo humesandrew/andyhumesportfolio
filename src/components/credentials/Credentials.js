@@ -7,7 +7,7 @@ import Paper from "@mui/material/Paper";
 
 import "./credentials.css";
 import resumeData from "../../resumeData.js";
-
+import SkillsList from "../skillslist/SkillsList";
 
 import { styled } from "@mui/material/styles";
 
@@ -50,7 +50,7 @@ export default function Credentials() {
           <Item>
        
 
-            <h1>These will be skills icons</h1>
+            <SkillsList />
           </Item>
         </Grid>
         <Grid item md={3} sm={12} xs={12} className="rightCredentialsGrid">
