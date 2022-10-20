@@ -1,7 +1,7 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-// import Container from "@mui/material/Container";
+import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 
@@ -24,13 +24,12 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function Credentials() {
   return (
-    // <Container className="credentialsContainer">
-    <div>
+    <Container className="credentialsContainer">
+    
       <Typography
               variant="h3"
               noWrap
-              component="a"
-              href="/"
+              
               sx={{
                 
                 display: { xs: "flex", md: "flex" },
@@ -56,7 +55,7 @@ export default function Credentials() {
         <Grid item md={3} sm={12} xs={12} className="rightCredentialsGrid">
          
         <Typography
-              variant="h4"
+              variant="h5"
               noWrap
               sx={{
                 
@@ -66,19 +65,21 @@ export default function Credentials() {
                 letterSpacing: ".3rem",
                 color: "black",
                 textDecoration: "none",
+                marginBottom: "15px"
               }}
-            >Education
+              >
+            Education
               </Typography>
          <Grid item md={12} sm={12} xs={12}>
           <Item>
           <img
-              alt="Andy Humes - Junior Developer"
+              alt="University of Denver logo"
               src="../img/dulogosmall.png"
               className="duPic"
              
             ></img>
 
-            <h4 className="duItem">University of Denver</h4>
+            <h3 className="duItem">University of Denver</h3>
             <p className="duText">Certificate of Completion: Full Stack Web Development </p>
           </Item>
         </Grid>
@@ -86,13 +87,13 @@ export default function Credentials() {
         <Grid item md={12} sm={12} xs={12}>
           <Item>
           <img
-              alt="Andy Humes - Junior Developer"
+              alt="Colorado State University logo"
               src="../img/csulogosmall.png"
               className="csuPic"
              
             ></img>
 
-            <h4 className="csuItem">Colorado State University</h4>
+            <h3 className="csuItem">Colorado State University</h3>
             <p className="csuText">Master of Biomedical Science</p>
           </Item>
         </Grid>
@@ -100,12 +101,12 @@ export default function Credentials() {
           <Item>
        
           <img
-              alt="Andy Humes - Junior Developer"
+              alt="The Ohio State University logo"
               src="../img/osulogosmall.png"
               className="osuPic"
              
             ></img>
-            <h4 className="osuItem">The Ohio State University</h4>
+            <h3 className="osuItem">The Ohio State University</h3>
             <p className="osuText">Bachelor of Science: Molecular Biology</p>
             <p className="osuText">Bachelor of Arts: Anthropology</p>
           </Item>
@@ -113,7 +114,7 @@ export default function Credentials() {
         </Grid>
         </Grid>
         </Box>
-  
-    </div>
+  </Container>
+    
   );
 }

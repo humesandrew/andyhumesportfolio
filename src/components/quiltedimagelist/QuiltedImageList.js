@@ -11,7 +11,8 @@ export default function QuiltedImageList() {
   return (
     <ImageList sx={{ width: "100%", height: 266 }} variant="woven" cols={5} gap={5}>
       {itemData.map((item) => (
-        <ImageListItem key={item.img} className="listItem">
+        <ImageListItem key={item.img} className="listItem" component="a"
+        href='/'>
           <img
             src={`${item.img}?w=161&fit=crop&auto=format`}
             srcSet={`${item.img}?w=161&fit=crop&auto=format&dpr=2 2x`}
@@ -37,6 +38,7 @@ const itemData = [
   {
     img: 'https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fimagejournal.org%2Fwp-content%2Fuploads%2Fbb-plugin%2Fcache%2F23466317216_b99485ba14_o-panorama.jpg&f=1',
     title: 'Technologies',
+    href: 'www.google.com'
   },
   {
     img: 'https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.lokeshdhakar.com%2Fprojects%2Flightbox2%2Fimages%2Fimage-4.jpg&f=1',
