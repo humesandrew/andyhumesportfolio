@@ -22,19 +22,20 @@ export default function ResponsiveStack() {
         <Item sx={{ width: "100%" }}>
           <img
             alt="Andy Humes - Junior Developer"
-            src="../img/javascript.png"
-            className="duPic"
-          ></img>
-          <p>Javascript</p>
-        </Item>
-        <Item sx={{ width: "100%" }}>
-          <img
-            alt="Andy Humes - Junior Developer"
             src="../img/react.png"
             className="duPic"
           ></img>
           <p>React</p>
         </Item>
+        <Item sx={{ width: "100%" }}>
+          <img
+            alt="Andy Humes - Junior Developer"
+            src="../img/javascript.png"
+            className="duPic"
+          ></img>
+          <p>Javascript</p>
+        </Item>
+        
         <Item sx={{ width: "100%" }}>
           <img
             alt="Andy Humes - Junior Developer"

@@ -56,7 +56,7 @@ export default function Credentials() {
         <Grid item md={3} sm={12} xs={12} className="rightCredentialsGrid">
          
         <Typography
-              variant="h5"
+              variant="h4"
               noWrap
               sx={{
                 
