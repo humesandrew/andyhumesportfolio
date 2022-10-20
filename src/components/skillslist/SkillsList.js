@@ -15,7 +15,7 @@ export default function ResponsiveStack() {
   return (
     <div>
       <Stack
-        direction={{ sm: 'column', md: 'row' }}
+        direction={{ sm: 'row', md: 'row' }}
         spacing={{ xs: 1, sm: 2, md: 4 }}
         marginBottom='10px'
       >
@@ -25,7 +25,7 @@ export default function ResponsiveStack() {
        
       </Stack>
       <Stack
-        direction={{ sm: 'column', md: 'row' }}
+        direction={{ sm: 'row', md: 'row' }}
         spacing={{ xs: 1, sm: 2, md: 4 }}
         marginBottom='10px'
       >
@@ -35,7 +35,7 @@ export default function ResponsiveStack() {
        
       </Stack>
       <Stack
-        direction={{ sm: 'column', md: 'row' }}
+        direction={{ sm: 'row', md: 'row' }}
         spacing={{ xs: 1, sm: 2, md: 4 }}
         marginBottom='10px'
       >
