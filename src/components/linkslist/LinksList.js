@@ -6,6 +6,8 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
+
+
 import "./linkslist.css";
 import resumeData from "../../resumeData.js";
 
@@ -14,8 +16,8 @@ import resumeData from "../../resumeData.js";
 export default function LinksList() {
     return (
       <Box className="linksListContainer" sx={{ flexGrow: 1 }}>
-       <Card sx={{ maxWidth: 125, height: 300 }}>
-      <CardActionArea>
+       <Card sx={{ maxWidth: 125, height: 300 }} className="worksCard">
+      <CardActionArea component='a' href="#works">
         <CardMedia
           component="img"
           height="140"
@@ -24,7 +26,7 @@ export default function LinksList() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Lizard
+            Works
           </Typography>
           <Typography variant="body2" color="text.secondary">
             Lizards are a widespread group of squamate reptiles, with over 6,000
@@ -34,7 +36,7 @@ export default function LinksList() {
       </CardActionArea>
     </Card>
     <Card sx={{ maxWidth: 125, height: 300 }}>
-      <CardActionArea>
+      <CardActionArea component='a' href="#skills">
         <CardMedia
           component="img"
           height="140"
@@ -43,7 +45,7 @@ export default function LinksList() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Lizard
+            Skills
           </Typography>
           <Typography variant="body2" color="text.secondary">
             Lizards are a widespread group of squamate reptiles, with over 6,000
@@ -53,7 +55,7 @@ export default function LinksList() {
       </CardActionArea>
     </Card>
     <Card sx={{ maxWidth: 125, height: 300 }}>
-      <CardActionArea>
+      <CardActionArea  component='a' href={resumeData.resume}>
         <CardMedia
           component="img"
           height="140"
@@ -62,7 +64,7 @@ export default function LinksList() {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Lizard
+            Resume
           </Typography>
           <Typography variant="body2" color="text.secondary">
             Lizards are a widespread group of squamate reptiles, with over 6,000

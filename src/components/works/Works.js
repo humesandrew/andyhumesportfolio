@@ -58,12 +58,11 @@ export default function Works() {
   };
 
   return (
-    <Container className="worksContainer">
+    <Container className="worksContainer" >
       <Typography
               variant="h3"
               noWrap
-              component="a"
-              href="/"
+              id="works"
               sx={{
                 
                 display: { xs: "flex", md: "flex" },
@@ -81,7 +80,7 @@ export default function Works() {
         bgcolor: "background.paper",
         display: "flex",
       }}
-
+      id="works"
       md={{height: "75%", width: "75%"}}
     
     >
