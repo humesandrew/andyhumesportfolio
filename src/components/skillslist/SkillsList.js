@@ -19,30 +19,31 @@ export default function ResponsiveStack() {
         spacing={{ xs: 1, sm: 2, md: 4 }}
         marginBottom="10px"
       >
-        <Item sx={{ width: "100%" }}>
+        <Item sx={{ width: "100%", boxShadow: "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px" }}>
           <img
-            alt="Andy Humes - Junior Developer"
+            alt="React.js logo"
             src="../img/react.png"
-            className="duPic"
+            
+            
           ></img>
           <p>React</p>
         </Item>
-        <Item sx={{ width: "100%" }}>
+        <Item sx={{ width: "100%", boxShadow: "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px" }}>
           <img
-            alt="Andy Humes - Junior Developer"
+            alt="Javascript logo"
             src="../img/javascript.png"
-            className="duPic"
+      
           ></img>
           <p>Javascript</p>
         </Item>
         
-        <Item sx={{ width: "100%" }}>
+        <Item sx={{ width: "100%", boxShadow: "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px" }}>
           <img
-            alt="Andy Humes - Junior Developer"
+            alt="Node.js logo"
             src="../img/node.png"
-            className="duPic"
+          
           ></img>
-          <p>Node</p>{" "}
+          <p>Node</p>
         </Item>
       </Stack>
       <Stack
@@ -50,29 +51,29 @@ export default function ResponsiveStack() {
         spacing={{ xs: 1, sm: 2, md: 4 }}
         marginBottom="10px"
       >
-        <Item sx={{ width: "100%" }}>
+        <Item sx={{ width: "100%", boxShadow: "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px" }}>
           <img
-            alt="Andy Humes - Junior Developer"
+            alt="Bootstrap logo"
             src="../img/bootstrap.png"
-            className="duPic"
+          
           ></img>
           <p>Bootstrap</p>
         </Item>
         
-        <Item sx={{ width: "100%" }}>
+        <Item sx={{ width: "100%", boxShadow: "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px" }}>
           <img
-            alt="Andy Humes - Junior Developer"
+            alt="MongoDB logo"
             src="../img/mongo.png"
-            className="duPic"
+          
           ></img>
 
           <p>MongoDB</p>
         </Item>
-        <Item sx={{ width: "100%" }}>
+        <Item sx={{ width: "100%", boxShadow: "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px" }}>
           <img
-            alt="Andy Humes - Junior Developer"
+            alt="MySQL logo"
             src="../img/sql.png"
-            className="duPic"
+       
           ></img>
           <p>MySQL</p>
         </Item>
@@ -82,29 +83,29 @@ export default function ResponsiveStack() {
         spacing={{ xs: 1, sm: 2, md: 4 }}
         marginBottom="10px"
       >
-       <Item sx={{ width: "100%" }}>
+       <Item sx={{ width: "100%", boxShadow: "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px" }}>
           <img
-            alt="Andy Humes - Junior Developer"
+            alt="HTML logo"
             src="../img/html.png"
-            className="duPic"
+           
           ></img>
 
           <p>HTML5</p>
         </Item>
-        <Item sx={{ width: "100%" }}>
+        <Item sx={{ width: "100%", boxShadow: "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px" }}>
           <img
-            alt="Andy Humes - Junior Developer"
+            alt="Material UI logo"
             src="../img/mui.png"
-            className="duPic"
+      
           ></img>
 
           <p>MaterialUI</p>
         </Item>
-        <Item sx={{ width: "100%" }}>
+        <Item sx={{ width: "100%", boxShadow: "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px" }}>
           <img
-            alt="Andy Humes - Junior Developer"
+            alt="CSS logo"
             src="../img/css.png"
-            className="duPic"
+          
           ></img>
 
           <p>CSS</p>
