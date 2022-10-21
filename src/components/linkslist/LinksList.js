@@ -12,7 +12,6 @@ import "./linkslist.css";
 import resumeData from "../../resumeData.js";
 
 
-
 export default function LinksList() {
     return (
       <Box className="linksListContainer" sx={{ flexGrow: 1 }}>
