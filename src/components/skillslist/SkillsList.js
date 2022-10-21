@@ -11,13 +11,14 @@ const Item = styled(Paper)(({ theme }) => ({
   color: theme.palette.text.secondary,
 }));
 
-export default function ResponsiveStack() {
+export default function SkillsList() {
   return (
-    <div>
+    <div id="skills">
       <Stack
         direction={{ sm: "row", md: "row" }}
         spacing={{ xs: 1, sm: 2, md: 4 }}
         marginBottom="10px"
+        
       >
         <Item sx={{ width: "100%", boxShadow: "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px" }}>
           <img
