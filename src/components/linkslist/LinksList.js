@@ -1,4 +1,5 @@
 import * as React from "react";
+import ReactDOM from "react";
 import Box from "@mui/material/Box";
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -10,6 +11,7 @@ import { CardActionArea } from '@mui/material';
 
 import "./linkslist.css";
 import resumeData from "../../resumeData.js";
+import EducationModal from "../educationmodal/EducationModal";
 
 
 export default function LinksList() {
@@ -70,7 +72,7 @@ export default function LinksList() {
       </CardActionArea>
     </Card>
     <Card sx={{ maxWidth: 125, height: 300 }}>
-      <CardActionArea>
+      <CardActionArea button onClick={EducationModal} id="educationmodal">
         <CardMedia
           component="img"
           height="140"
@@ -78,7 +80,7 @@ export default function LinksList() {
           alt="green iguana"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h5">
             Lizard
           </Typography>
           <Typography variant="body2" color="text.secondary">
