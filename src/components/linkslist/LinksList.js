@@ -28,8 +28,7 @@ export default function LinksList() {
             Works
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+           This is the works link
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -47,8 +46,7 @@ export default function LinksList() {
             Skills
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+           This is the skills link
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -66,8 +64,7 @@ export default function LinksList() {
             Resume
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+            This is my resume
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -85,8 +82,7 @@ export default function LinksList() {
             Lizard
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+          This will be the education modal
           </Typography>
         </CardContent>
       </CardActionArea>
