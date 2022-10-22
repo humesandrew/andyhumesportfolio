@@ -17,8 +17,8 @@ import EducationModal from "../educationmodal/EducationModal";
 export default function LinksList() {
     return (
       <Box className="linksListContainer" sx={{ flexGrow: 1 }}>
-       <Card sx={{ maxWidth: 125, height: 300 }} className="worksCard">
-      <CardActionArea component='a' href="#works">
+       <Card sx={{ maxWidth: 125, height: 300 }} className="worksCard" component='a' href="#works">
+     
         <CardMedia
           component="img"
           height="140"
@@ -33,7 +33,7 @@ export default function LinksList() {
            This is the works link
           </Typography>
         </CardContent>
-      </CardActionArea>
+    
     </Card>
     <Card sx={{ maxWidth: 125, height: 300 }}>
       <CardActionArea component='a' href="#skills">
