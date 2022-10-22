@@ -6,35 +6,45 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
-
+import Button from '@mui/material/Button';
+import ImageListItemBar from '@mui/material/ImageListItemBar';
 
 
 import "./linkslist.css";
 import resumeData from "../../resumeData.js";
 import EducationModal from "../educationmodal/EducationModal";
 
+const worksCard = function() {
+  window.location = "#works"
+}
 
 export default function LinksList() {
     return (
       <Box className="linksListContainer" sx={{ flexGrow: 1 }}>
-       <Card sx={{ maxWidth: 125, height: 300 }} className="worksCard" component='a' href="#works">
+       <Card sx={{ maxWidth: 125, height: 300 }} className="worksCard" component={Button} onClick={worksCard}>
      
-        <CardMedia
-          component="img"
-          height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
-        />
+       
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            Works
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-           This is the works link
-          </Typography>
+
+        <ImageListItemBar 
+            className="imageTitleText"
+            title="Works"
+            alt="Works link">
+            </ImageListItemBar> 
+         
+       
         </CardContent>
     
     </Card>
+
+
+
+
+
+
+
+
+
     <Card sx={{ maxWidth: 125, height: 300 }}>
       <CardActionArea component='a' href="#skills">
         <CardMedia
