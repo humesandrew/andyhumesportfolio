@@ -29,7 +29,7 @@ export default function Credentials() {
       <Typography
               variant="h3"
               noWrap
-              
+              id="credentials"
               sx={{
                 
                 display: { xs: "flex", md: "flex" },
