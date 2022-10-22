@@ -53,7 +53,7 @@ export default function Bio() {
               background from many years in health care.
             </p>
             <br></br>
-<QuiltedImageList />
+
 <LinksList />
             
           <br></br>

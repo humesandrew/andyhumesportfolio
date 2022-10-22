@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import Button from '@mui/material/Button';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
-
+import ImageListItem from '@mui/material/ImageListItem';
 
 import "./linkslist.css";
 import resumeData from "../../resumeData.js";
@@ -32,7 +32,7 @@ export default function LinksList() {
             alt="Works link">
             </ImageListItemBar> 
          
-       
+          
         </CardContent>
     
     </Card>
