@@ -19,6 +19,8 @@ import DescriptionIcon from "@mui/icons-material/Description";
 import "./topapp.css";
 import resumeData from "../../resumeData.js";
 
+
+
 const emailBtn = function () {
   window.open("mailto:humes.andrew@gmail.com");
 };
