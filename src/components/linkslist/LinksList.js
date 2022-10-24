@@ -18,6 +18,14 @@ const worksCard = function() {
   window.location = "#works"
 }
 
+const skillsCard = function() {
+  window.location = "#credentials"
+}
+
+const resumeCard = function() {
+  document.open('../public/img/Andy_Humes_resume.pdf')
+}
+
 export default function LinksList() {
     return (
       <Box className="linksListContainer" sx={{ flexGrow: 1 }}>
@@ -45,41 +53,33 @@ export default function LinksList() {
 
 
 
-    <Card sx={{ maxWidth: 125, height: 300 }}>
-      <CardActionArea component='a' href="#skills">
-        <CardMedia
-          component="img"
-          height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
-        />
+    <Card sx={{ maxWidth: 125, height: 300 }} className='skillsCard' component={Button} onClick={skillsCard}>
+     
+     
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            Skills
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-           This is the skills link
-          </Typography>
+        <ImageListItemBar 
+            className="imageTitleText"
+            title="Skills"
+            alt="Skills link">
+            </ImageListItemBar> 
+         
+          
         </CardContent>
-      </CardActionArea>
+      
     </Card>
-    <Card sx={{ maxWidth: 125, height: 300 }}>
-      <CardActionArea  component='a' href={resumeData.resume}>
-        <CardMedia
-          component="img"
-          height="140"
-          image="/static/images/cards/contemplative-reptile.jpg"
-          alt="green iguana"
-        />
+    <Card sx={{ maxWidth: 125, height: 300 }} className='resumeCard' component={Button} onClick={skillsCard}>
+     
+     
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            Resume
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            This is my resume
-          </Typography>
+        <ImageListItemBar 
+            className="imageTitleText"
+            title="Resume"
+            alt="Resume link">
+            </ImageListItemBar> 
+         
+          
         </CardContent>
-      </CardActionArea>
+      
     </Card>
     <Card sx={{ maxWidth: 125, height: 300 }}>
       <CardActionArea button onClick={EducationModal} id="educationmodal">
