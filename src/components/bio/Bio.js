@@ -33,7 +33,7 @@ export default function Bio() {
             ></img>
 
             <h1>Welcome to my portfolio.</h1>
-            <h1><a href="mailto:humes.andrew@gmail.com">humes.andrew@gmail.com</a></h1>
+            <h3><a href="mailto:humes.andrew@gmail.com">humes.andrew@gmail.com</a></h3>
           </Item>
         </Grid>
         <Grid item md={7} sm={12} xs={12} className="rightBioGrid">

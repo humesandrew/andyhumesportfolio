@@ -1,3 +1,11 @@
 .educationModal {
-   height: 100%
+  
+ width: 125px;
+  height: 250px;
+  background-image: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fimagejournal.org%2Fwp-content%2Fuploads%2Fbb-plugin%2Fcache%2F23466317216_b99485ba14_o-panorama.jpg&f=1");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  
 }
