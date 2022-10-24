@@ -68,11 +68,15 @@ export default function LinksList() {
         component={Button}
         onClick={resumeCard}
       >
-        <CardContent>
+        <CardContent 
+                       
+                         >
           <ImageListItemBar
             className="imageTitleText"
             title="Resume"
             alt="Resume link"
+   
+         
           ></ImageListItemBar>
         </CardContent>
       </Card>
