@@ -26,6 +26,9 @@ const resumeCard = function () {
   window.open(resumeData.resume);
 };
 
+
+
+
 export default function LinksList() {
   return (
     <Box className="linksListContainer" sx={{ flexGrow: 1 }}>
@@ -73,21 +76,12 @@ export default function LinksList() {
           ></ImageListItemBar>
         </CardContent>
       </Card>
-      <Card
-        sx={{ maxWidth: 125, height: 250 }}
-        className="educationCard"
-        component={Button}
-        onClick={resumeCard}
-        
+      <EducationModal
       >
-        <CardContent>
-          <ImageListItemBar
-            className="imageTitleText"
-            title="Education"
-            alt="Education link"
-          ></ImageListItemBar>
-        </CardContent>
-      </Card>
+      
+          
+      
+      </EducationModal>
       <Card
         sx={{ maxWidth: 125, height: 300 }}
         className="extrasCard"

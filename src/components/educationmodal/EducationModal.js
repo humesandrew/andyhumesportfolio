@@ -3,6 +3,8 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
+import Card from '@mui/material/Card';
+import "./educationmodal.css";
 
 const style = {
   position: 'absolute',
@@ -23,7 +25,8 @@ export default function EducationModal() {
 
   return (
     <div>
-      <Button onClick={handleOpen}>Open modal</Button>
+         
+      <Button onClick={handleOpen} className="educationModal">Education</Button>
       <Modal
         open={open}
         onClose={handleClose}
@@ -39,6 +42,7 @@ export default function EducationModal() {
           </Typography>
         </Box>
       </Modal>
+      
     </div>
   );
 }
