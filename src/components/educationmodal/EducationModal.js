@@ -1,19 +1,22 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
-import Modal from '@mui/material/Modal';
-import Card from '@mui/material/Card';
+import * as React from "react";
+import Box from "@mui/material/Box";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+import Modal from "@mui/material/Modal";
+import Card from "@mui/material/Card";
+import Grid from "@mui/material/Grid";
+import CardContent from "@mui/material/CardContent";
+import ImageListItemBar from "@mui/material/ImageListItemBar";
 import "./educationmodal.css";
 
 const style = {
-  position: 'absolute',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%, -50%)",
   width: 400,
-  bgcolor: 'background.paper',
-  border: '2px solid #000',
+  bgcolor: "background.paper",
+  border: "2px solid #000",
   boxShadow: 24,
   p: 4,
 };
@@ -25,8 +28,14 @@ export default function EducationModal() {
 
   return (
     <div>
-         
-      <Button onClick={handleOpen} className="educationModal">Education</Button>
+      <Card
+        onClick={handleOpen}
+        className="educationModal"
+        sx={{ maxWidth: 125, height: 250 }}
+      >
+        <div className="educationTitle">Education</div>
+      </Card>
+
       <Modal
         open={open}
         onClose={handleClose}
@@ -34,15 +43,55 @@ export default function EducationModal() {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-          <Typography id="modal-modal-title" variant="h6" component="h2">
-            This is the education modal 
+          <Typography
+            variant="h3"
+            noWrap
+            sx={{
+              display: { xs: "flex", md: "flex" },
+              fontFamily: "monospace",
+              fontWeight: 700,
+              letterSpacing: ".3rem",
+              color: "black",
+              textDecoration: "none",
+              marginBottom: "20px",
+            }}
+          >
+            Education
           </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-          </Typography>
+          <Grid item md={12} sm={12} xs={12} className="educationModalBody">
+            <img
+              alt="University of Denver logo"
+              src="../img/dulogosmall.png"
+              className="first"
+            ></img>
+
+            <h3 className="duItem">University of Denver</h3>
+            <p className="duText">
+              Certificate of Completion: Full Stack Web Development{" "}
+            </p>
+          </Grid>
+          <Grid item md={12} sm={12} xs={12} className="educationModalBody">
+            <img
+              alt="Colorado State University logo"
+              src="../img/csulogosmall.png"
+              className="csuPic"
+            ></img>
+
+            <h3 className="csuItem">Colorado State University</h3>
+            <p className="csuText">Master of Biomedical Science</p>
+          </Grid>
+          <Grid item md={12} sm={12} xs={12} className="educationModalBody">
+            <img
+              alt="The Ohio State University logo"
+              src="../img/osulogosmall.png"
+              className="osuPic"
+            ></img>
+            <h3 className="osuItem">The Ohio State University</h3>
+            <p className="osuText">Bachelor of Science: Molecular Biology</p>
+            <p className="osuText">Bachelor of Arts: Anthropology</p>
+          </Grid>
         </Box>
       </Modal>
-      
     </div>
   );
 }

@@ -68,20 +68,26 @@ export default function LinksList() {
         component={Button}
         onClick={resumeCard}
       >
-        <CardContent>
+        <CardContent 
+                       
+                         >
           <ImageListItemBar
             className="imageTitleText"
             title="Resume"
             alt="Resume link"
+   
+         
           ></ImageListItemBar>
         </CardContent>
       </Card>
+      <Card  sx={{ maxWidth: 125, height: 250 }}>
       <EducationModal
       >
       
           
       
       </EducationModal>
+      </Card>
       <Card
         sx={{ maxWidth: 125, height: 300 }}
         className="extrasCard"
