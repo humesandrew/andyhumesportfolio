@@ -75,6 +75,7 @@ export default function LinksList() {
             className="imageTitleText"
             title="Resume"
             alt="Resume link"
+          
    
          
           ></ImageListItemBar>
@@ -97,7 +98,7 @@ export default function LinksList() {
         <CardContent>
           <ImageListItemBar
             className="imageTitleText"
-            title="Volunteer and Publication"
+            title="Accolades"
             alt="Extras link"
           ></ImageListItemBar>
         </CardContent>
