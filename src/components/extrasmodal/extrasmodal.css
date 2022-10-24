@@ -1,0 +1,69 @@
+.extrasModal {
+  width: 125px;
+  height: 300px;
+ background-image: url('https://images.pexels.com/photos/932638/pexels-photo-932638.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  display: flex;
+}
+
+.extrasModal:hover {
+  color: #fff;
+  text-shadow: 0 0 10px white;
+}
+
+.extrasTitle {
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  height: 150px;
+  margin-top: 122px;
+  border-radius: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0px;
+  text-decoration: none;
+
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+
+  line-height: 24px;
+  color: #fff;
+  text-overflow: ellipsis;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.extrasModalBody {
+  text-align: center;
+}
+
+.first {
+  margin-top: 10px;
+}
+
+.second {
+  margin-top: 10px;
+}
+
+.third {
+  margin-top: 10px;
+}

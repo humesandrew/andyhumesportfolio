@@ -13,6 +13,7 @@ import ImageListItem from "@mui/material/ImageListItem";
 import "./linkslist.css";
 import resumeData from "../../resumeData.js";
 import EducationModal from "../educationmodal/EducationModal";
+import ExtrasModal from "../extrasmodal/ExtrasModal";
 
 const worksCard = function () {
   window.location = "#works";
@@ -89,19 +90,13 @@ export default function LinksList() {
       
       </EducationModal>
       </Card>
-      <Card
-        sx={{ maxWidth: 125, height: 300 }}
-        className="extrasCard"
-        component={Button}
-        onClick={resumeCard}
+      <Card  sx={{ maxWidth: 125, height: 300 }}>
+      <ExtrasModal
       >
-        <CardContent>
-          <ImageListItemBar
-            className="imageTitleText"
-            title="Accolades"
-            alt="Extras link"
-          ></ImageListItemBar>
-        </CardContent>
+      
+          
+      
+      </ExtrasModal>
       </Card>
     </Box>
   );
