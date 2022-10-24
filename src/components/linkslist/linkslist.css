@@ -36,4 +36,17 @@
     text-shadow: 0 0 10px white;
   }
 
- 
+  .resumeCard {
+    width: 150px;
+    height: 100px;
+    background-image: url('https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.lokeshdhakar.com%2Fprojects%2Flightbox2%2Fimages%2Fimage-4.jpg&f=1');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
+  .resumeCard:hover {
+    color: #fff;
+    text-shadow: 0 0 10px white;
+  }
