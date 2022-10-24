@@ -53,7 +53,8 @@ export default function EducationModal() {
               letterSpacing: ".3rem",
               color: "black",
               textDecoration: "none",
-              marginBottom: "20px",
+              marginBottom: "10px",
+              justifyContent: "center"
             }}
           >
             Education
@@ -74,7 +75,7 @@ export default function EducationModal() {
             <img
               alt="Colorado State University logo"
               src="../img/csulogosmall.png"
-              className="csuPic"
+              className="second"
             ></img>
 
             <h3 className="csuItem">Colorado State University</h3>
@@ -84,7 +85,7 @@ export default function EducationModal() {
             <img
               alt="The Ohio State University logo"
               src="../img/osulogosmall.png"
-              className="osuPic"
+              className="third"
             ></img>
             <h3 className="osuItem">The Ohio State University</h3>
             <p className="osuText">Bachelor of Science: Molecular Biology</p>
