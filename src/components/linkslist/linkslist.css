@@ -1,52 +1,81 @@
 .linksListContainer {
-    background-color: green;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .worksCard {
-    width: 150px;
-    height: 100px;
-    background-image: url('https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fimagejournal.org%2Fwp-content%2Fuploads%2Fbb-plugin%2Fcache%2F23466317216_b99485ba14_o-panorama.jpg&f=1');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-  }
+  width: 150px;
+  height: 100px;
+  background-image: url("https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.lokeshdhakar.com%2Fprojects%2Flightbox2%2Fimages%2Fimage-4.jpg&f=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
 
-  .worksCard:hover {
-    color: #fff;
-    text-shadow: 0 0 10px white;
-  }
+.worksCard:hover {
+  color: #fff;
+  text-shadow: 0 0 10px white;
+}
 
-  .skillsCard {
-    width: 150px;
-    height: 100px;
-    background-image: url('https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.gettyimages.com.au%2Fgi-resources%2Fimages%2Ffrontdoor%2Fcreative%2FPanoramicImagesRM%2FFD_image.jpg&f=1');
+.skillsCard {
+  width: 150px;
+  height: 100px;
+  background-image: url("https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.gettyimages.com.au%2Fgi-resources%2Fimages%2Ffrontdoor%2Fcreative%2FPanoramicImagesRM%2FFD_image.jpg&f=1");
 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-  }
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
 
-  .skillsCard:hover {
-    color: #fff;
-    text-shadow: 0 0 10px white;
-  }
+.skillsCard:hover {
+  color: #fff;
+  text-shadow: 0 0 10px white;
+}
 
-  .resumeCard {
-    width: 150px;
-    height: 100px;
-    background-image: url('https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.lokeshdhakar.com%2Fprojects%2Flightbox2%2Fimages%2Fimage-4.jpg&f=1');
+.resumeCard {
+  width: 150px;
+  height: 100px;
+  background-image: url("https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fbpucette.b.p.pic.centerblog.net%2Ffv86ll9r.jpg&f=1");
 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-  }
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
 
-  .resumeCard:hover {
-    color: #fff;
-    text-shadow: 0 0 10px white;
-  }
+.resumeCard:hover {
+  color: #fff;
+  text-shadow: 0 0 10px white;
+}
+
+.educationCard {
+  width: 150px;
+  height: 100px;
+  background-image: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fimagejournal.org%2Fwp-content%2Fuploads%2Fbb-plugin%2Fcache%2F23466317216_b99485ba14_o-panorama.jpg&f=1");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.educationCard:hover {
+  color: #fff;
+  text-shadow: 0 0 10px white;
+}
+
+.extrasCard {
+  width: 150px;
+  height: 100px;
+  background-image: url("https://images.pexels.com/photos/932638/pexels-photo-932638.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.extrasCard:hover {
+  color: #fff;
+  text-shadow: 0 0 10px white;
+}
