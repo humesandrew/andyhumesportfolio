@@ -76,12 +76,14 @@ export default function LinksList() {
           ></ImageListItemBar>
         </CardContent>
       </Card>
+      <Card  sx={{ maxWidth: 125, height: 250 }}>
       <EducationModal
       >
       
           
       
       </EducationModal>
+      </Card>
       <Card
         sx={{ maxWidth: 125, height: 300 }}
         className="extrasCard"

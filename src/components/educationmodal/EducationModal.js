@@ -4,6 +4,8 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import ImageListItemBar from '@mui/material/ImageListItemBar';
 import "./educationmodal.css";
 
 const style = {
@@ -26,13 +28,21 @@ export default function EducationModal() {
   return (
     <div>
          
-      <Button onClick={handleOpen} className="educationModal">Education</Button>
+      <Card onClick={handleOpen} className="educationModal" sx={{ maxWidth: 125, height: 250 }}>
+      
+    
+        
+     <div className='educationTitle' >Education</div>
+      </Card>
+    
       <Modal
         open={open}
         onClose={handleClose}
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
+        
       >
+        
         <Box sx={style}>
           <Typography id="modal-modal-title" variant="h6" component="h2">
             This is the education modal 
@@ -42,6 +52,7 @@ export default function EducationModal() {
           </Typography>
         </Box>
       </Modal>
+    
       
     </div>
   );
