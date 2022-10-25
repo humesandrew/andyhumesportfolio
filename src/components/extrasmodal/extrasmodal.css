@@ -1,3 +1,11 @@
+
+.volunteerName {
+  font-weight: bold
+}
+.publicationName {
+  font-weight: bold
+}
+
 .extrasModal {
   width: 125px;
   height: 300px;

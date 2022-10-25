@@ -9,6 +9,8 @@ import CardContent from "@mui/material/CardContent";
 import ImageListItemBar from "@mui/material/ImageListItemBar";
 import "./extrasmodal.css";
 
+import resumeData from "../../resumeData.js";
+
 const style = {
   position: "absolute",
   top: "50%",
@@ -44,7 +46,7 @@ export default function ExtrasModal() {
       >
         <Box sx={style}>
           <Typography
-            variant="h3"
+            variant="h4"
             noWrap
             sx={{
               display: { xs: "flex", md: "flex" },
@@ -53,45 +55,84 @@ export default function ExtrasModal() {
               letterSpacing: ".3rem",
               color: "black",
               textDecoration: "none",
-              marginBottom: "10px",
+            
               justifyContent: "center"
             }}
           >
-            Accolades
+            Volunteer
           </Typography>
           <Grid item md={12} sm={12} xs={12} className="extrasModalBody">
-            <img
-              alt="University of Denver logo"
-              src="../img/dulogosmall.png"
-              className="first"
-            ></img>
+          <div>
+               <div className="volunteerList">
+            {
+              resumeData.volunteer && resumeData.volunteer.map((item)=>{
+                return(
+                  <div>
+                <br></br>
+                   <div className="volunteerName"> {item.name}</div>
+                  
+                 {item.role}
+            <br></br>
+            <a href={item.url}  target="_blank" rel="noreferrer">Click to visit</a>
+                 
+                 <br></br>
+                  </div>
+                )
+              })
+            }
+          </div>
+       
+            </div>
 
-            <h3 className="duItem">University of Denver</h3>
-            <p className="duText">
-              Certificate of Completion: Full Stack Web Development{" "}
-            </p>
+           
           </Grid>
+          
+          <Typography
+            variant="h4"
+            noWrap
+            sx={{
+              display: { xs: "flex", md: "flex" },
+              fontFamily: "monospace",
+              fontWeight: 700,
+              letterSpacing: ".3rem",
+              color: "black",
+              textDecoration: "none",
+              marginTop: "50px",
+              justifyContent: "center"
+            }}
+          >
+            Publications
+          </Typography>
           <Grid item md={12} sm={12} xs={12} className="extrasModalBody">
-            <img
-              alt="Colorado State University logo"
-              src="../img/csulogosmall.png"
-              className="second"
-            ></img>
-
-            <h3 className="csuItem">Colorado State University</h3>
-            <p className="csuText">Master of Biomedical Science</p>
-          </Grid>
-          <Grid item md={12} sm={12} xs={12} className="extrasModalBody">
-            <img
-              alt="The Ohio State University logo"
-              src="../img/osulogosmall.png"
-              className="third"
-            ></img>
-            <h3 className="osuItem">The Ohio State University</h3>
-            <p className="osuText">Bachelor of Science: Molecular Biology</p>
-            <p className="osuText">Bachelor of Arts: Anthropology</p>
-          </Grid>
+         
+          <div className="publicationList">
+      {
+        resumeData.publication && resumeData.publication.map((item)=>{
+          return(
+            <div>
+            
+            <br></br>
+                   <div className="publicationName"> {item.description}</div>
+                  
+             {item.name}. Originally published {item.date}.
+            
+           <br></br>
+          
+          <a href={item.image}  target="_blank" rel="noreferrer">Click to read</a>
+        
+         
+         
+           
+           
+            </div>
+          )
+        })
+      }
+    </div>
+           </Grid>
+        
         </Box>
+        
       </Modal>
     </div>
   );

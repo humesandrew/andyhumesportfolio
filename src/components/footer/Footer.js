@@ -23,7 +23,7 @@ export default function Footer() {
   return (
     <Box className="footerBox" sx={{ flexGrow: 1 }}>
       <Typography
-        variant="h6"
+        variant="p"
         noWrap
         sx={{
           mr: 2,
