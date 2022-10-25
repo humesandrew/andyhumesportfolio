@@ -12,7 +12,7 @@
   - [Questions](#questions)
 
   ## Installation
-    This application is fully deployed on Heroku. See below for link. If you would like to clone this repository and run it locally, you will need to install Node and create a React application. 
+    This application is fully deployed on Netlify. See below for link. If you would like to clone this repository and run it locally, you will need to install Node and create a React application. 
   
 
   ## Usage
