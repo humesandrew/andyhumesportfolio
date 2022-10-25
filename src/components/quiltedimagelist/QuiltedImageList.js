@@ -9,7 +9,7 @@ import Link from '@mui/material/Link';
 import "./quiltedimagelist.css";
 import resumeData from "../../resumeData.js";
 
-export default function QuiltedImageList() {
+export default function Junk() {
   return (
     <ImageList sx={{ width: "100%", height: 266 }} variant="woven" cols={5} gap={5}>
       {itemData.map((item) => (

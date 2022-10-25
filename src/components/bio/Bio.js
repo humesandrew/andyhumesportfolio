@@ -5,7 +5,7 @@ import Box from "@mui/material/Box";
 import "./bio.scss";
 import resumeData from "../../resumeData.js";
 import LinksList from "../linkslist/LinksList";
-import QuiltedImageList from "../quiltedimagelist/QuiltedImageList";
+
 
 import { styled } from "@mui/material/styles";
 
