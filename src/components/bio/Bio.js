@@ -22,7 +22,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function Bio() {
   return (
-    <Box className="bioContainer" sx={{ flexGrow: 1 }}>
+    <Box className="bioContainer" sx={{ flexGrow: 1 }} id="Bio">
       <Grid container spacing={2} className="leftBioGrid">
         <Grid item md={5} sm={12} xs={12}>
           <Item>

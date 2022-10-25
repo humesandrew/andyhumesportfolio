@@ -13,7 +13,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function SkillsList() {
   return (
-    <div id="skills">
+    <div id="Credentials">
       <Stack
         direction={{ sm: "row", md: "row" }}
         spacing={{ xs: 1, sm: 2, md: 4 }}

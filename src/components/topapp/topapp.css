@@ -21,3 +21,11 @@
 .andy:hover {
   transform: scale(1.5);    
 }
+
+
+.linkBtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ 
+}

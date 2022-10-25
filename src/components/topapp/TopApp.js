@@ -112,7 +112,7 @@ const TopApp = () => {
               >
                 {pages.map((page) => (
                   <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center">{page}</Typography>
+                    <Typography textAlign="center" component='a' href={`#${page}`} sx={{ textDecoration: "none" }}>{page}</Typography>
                   </MenuItem>
                 ))}
               </Menu>
@@ -136,12 +136,14 @@ const TopApp = () => {
             >
               Andy Humes 
             </Typography>
-            <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+            <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }} className='linkBtns'>
               {pages.map((page) => (
                 <Button
                   key={page}
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: "white", display: "block" }}
+                  sx={{ my: 2, color: "white", display: "block", textDecoration: "none" }}
+                  href={`#${page}`}
+                  
                 >
                   {page}
                 </Button>
@@ -181,6 +183,7 @@ const TopApp = () => {
                   }}
                   className="andy"
                   onClick={handleOpenUserMenu}
+                  
                 >
                   <Avatar alt="Andy Humes Portfolio" src={resumeData.image} />
                 </IconButton>
@@ -201,9 +204,9 @@ const TopApp = () => {
                 open={Boolean(anchorElUser)}
                 onClose={handleCloseUserMenu}
               >
-                {settings.map((setting) => (
-                  <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                    <Typography textAlign="center">{setting}</Typography>
+                {pages.map((page) => (
+                  <MenuItem key={page} onClick={handleCloseUserMenu}>
+                    <Typography textAlign="center" component='a' href={`#${page}`} sx={{ textDecoration: "none"}}>{page}</Typography>
                   </MenuItem>
                 ))}
               </Menu>

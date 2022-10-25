@@ -20,7 +20,7 @@ const worksCard = function () {
 };
 
 const skillsCard = function () {
-  window.location = "#credentials";
+  window.location = "#Credentials";
 };
 
 const resumeCard = function () {
