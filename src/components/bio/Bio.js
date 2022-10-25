@@ -39,19 +39,16 @@ export default function Bio() {
         <Grid item md={7} sm={12} xs={12} className="rightBioGrid">
          
             <p>
-              Determined, junior level coder versed in many coding languages
-              with proficiency in the front end frameworks. Offers a unique
-              adaptability, stemming from a heavy background in technical
-              skills, complex systems, and analysis. Strong customer service
-              background from many years in health care.
+              Hello, I'm Andy. I'm a determined, junior level coder versed in many coding languages
+              with proficiency in the front end frameworks. My heavy background in technical
+              skills, complex systems, and analysis offers a unique adaptability towards learning new skills. I take pride in my customer service and professionalism, 
+              developed over many years in the health care field.
             </p>
            
             <p>
-              Determined, junior level coder versed in many coding languages
-              with proficiency in the front end frameworks. Offers a unique
-              adaptability, stemming from a heavy background in technical
-              skills, complex systems, and analysis. Strong customer service
-              background from many years in health care.
+              From RNA to React.js, I do well within systems. I transitioned to coding because it is a way to use my technical abilities to produce something 
+              tangible (albeit technically intangible). I succeed in analyzing profound amounts of data, and with coding, I get to use the analytical skills I've been practicing in the 
+              scientific field towards a practical, polished endpoint. 
             </p>
             <br></br>
 
