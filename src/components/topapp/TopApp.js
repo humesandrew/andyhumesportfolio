@@ -35,7 +35,7 @@ const resumeBtn = function () {
 };
 
 const pages = ["Bio", "Works", "Credentials"];
-const settings = ["Bio", "Works", "Credentials"];
+
 
 const TopApp = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
