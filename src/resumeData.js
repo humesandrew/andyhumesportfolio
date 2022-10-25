@@ -2,6 +2,7 @@ let resumeData = {
     "imagebaseurl":"https://humesandrew.github.io/",
     "name": "Andy Humes",
     "image":"img/Andy_2(profile).jpg",
+    "image2":"img/Andy_1(profile).jpg",
     "role": "Full Stack Developer",
     "resume":"img/Andy_Humes_resume.pdf",
     "linkedinId":"andy-humes-72075559",
