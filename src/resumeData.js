@@ -315,6 +315,14 @@ let resumeData = {
      
       
       ],
+      "page":[
+        {
+          "id":"1",
+          "name":"Works",
+          "href":"#works",
+
+        }, 
+      ],
       "githubImage":"img/githubthumb.png",
 
   }
