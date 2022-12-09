@@ -84,7 +84,7 @@ export default function Credentials() {
           </Item>
         </Grid>
            
-        <Grid item md={12} sm={12} xs={12}>
+        {/* <Grid item md={12} sm={12} xs={12}>
           <Item>
           <img
               alt="Colorado State University logo"
@@ -96,7 +96,7 @@ export default function Credentials() {
             <h3 className="csuItem">Colorado State University</h3>
             <p className="csuText">Master of Biomedical Science</p>
           </Item>
-        </Grid>
+        </Grid> */}
         <Grid item md={12} sm={12} xs={12}>
           <Item>
        

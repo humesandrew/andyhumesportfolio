@@ -58,7 +58,7 @@ export default function ExtrasModal() {
               justifyContent: "center",
             }}
           >
-            Volunteer
+            Volunteering
           </Typography>
           <Grid item md={12} sm={12} xs={12} className="extrasModalBody">
             <div>
