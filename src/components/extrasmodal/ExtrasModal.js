@@ -34,7 +34,7 @@ export default function ExtrasModal() {
         className="extrasModal"
         sx={{ maxWidth: 125, height: 300 }}
       >
-        <div className="extrasTitle">Accolades</div>
+        <div className="extrasTitle">Volunteer</div>
       </Card>
 
       <Modal
@@ -54,39 +54,37 @@ export default function ExtrasModal() {
               letterSpacing: ".3rem",
               color: "black",
               textDecoration: "none",
-            
-              justifyContent: "center"
+
+              justifyContent: "center",
             }}
           >
             Volunteer
           </Typography>
           <Grid item md={12} sm={12} xs={12} className="extrasModalBody">
-          <div>
-               <div className="volunteerList">
-            {
-              resumeData.volunteer && resumeData.volunteer.map((item)=>{
-                return(
-                  <div>
-                <br></br>
-                   <div className="volunteerName"> {item.name}</div>
-                  
-                 {item.role}
-            <br></br>
-            <a href={item.url}  target="_blank" rel="noreferrer">Click to visit</a>
-                 
-                 <br></br>
-                  </div>
-                )
-              })
-            }
-          </div>
-       
-            </div>
+            <div>
+              <div className="volunteerList">
+                {resumeData.volunteer &&
+                  resumeData.volunteer.map((item) => {
+                    return (
+                      <div>
+                        <br></br>
+                        <div className="volunteerName"> {item.name}</div>
 
-           
+                        {item.role}
+                        <br></br>
+                        <a href={item.url} target="_blank" rel="noreferrer">
+                          Click to visit
+                        </a>
+
+                        <br></br>
+                      </div>
+                    );
+                  })}
+              </div>
+            </div>
           </Grid>
-          
-          <Typography
+
+          {/* <Typography
             variant="h4"
             noWrap
             sx={{
@@ -97,41 +95,29 @@ export default function ExtrasModal() {
               color: "black",
               textDecoration: "none",
               marginTop: "50px",
-              justifyContent: "center"
+              justifyContent: "center",
             }}
           >
             Publications
           </Typography>
           <Grid item md={12} sm={12} xs={12} className="extrasModalBody">
-         
-          <div className="publicationList">
-      {
-        resumeData.publication && resumeData.publication.map((item)=>{
-          return(
-            <div>
-            
-            <br></br>
-                   <div className="publicationName"> {item.description}</div>
-                  
-             {item.name}. Originally published {item.date}.
-            
-           <br></br>
-          
-          <a href={item.image}  target="_blank" rel="noreferrer">Click to read</a>
-        
-         
-         
-           
-           
+            <div className="publicationList">
+              {resumeData.publication &&
+                resumeData.publication.map((item) => {
+                  return (
+                    <div>
+                      <br></br>
+                      <div className="publicationName"> {item.description}</div>
+                      {item.name}. Originally published {item.date}.<br></br>
+                      <a href={item.image} target="_blank" rel="noreferrer">
+                        Click to read
+                      </a>
+                    </div>
+                  );
+                })}
             </div>
-          )
-        })
-      }
-    </div>
-           </Grid>
-        
+          </Grid> */}
         </Box>
-        
       </Modal>
     </div>
   );

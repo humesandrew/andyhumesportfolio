@@ -70,7 +70,7 @@ export default function EducationModal() {
               Certificate of Completion: Full Stack Web Development{" "}
             </p>
           </Grid>
-          <Grid item md={12} sm={12} xs={12} className="educationModalBody">
+          {/* <Grid item md={12} sm={12} xs={12} className="educationModalBody">
             <img
               alt="Colorado State University logo"
               src="../img/csulogosmall.png"
@@ -79,7 +79,7 @@ export default function EducationModal() {
 
             <h3 className="csuItem">Colorado State University</h3>
             <p className="csuText">Master of Biomedical Science</p>
-          </Grid>
+          </Grid> */}
           <Grid item md={12} sm={12} xs={12} className="educationModalBody">
             <img
               alt="The Ohio State University logo"
