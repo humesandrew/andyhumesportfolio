@@ -20,7 +20,7 @@ export default function Bio() {
             className="andyPic"
           ></img>
 
-          <h1>Welcome to my portfolio.</h1>
+          <h1>Thanks for visiting.</h1>
           <h3>
             <a href="mailto:humes.andrew@gmail.com" className="mailLink">
               humes.andrew@gmail.com
@@ -29,21 +29,11 @@ export default function Bio() {
         </Grid>
         <Grid item md={7} sm={12} xs={12} className="rightBioGrid">
           <p>
-            Hello, I'm Andy. I'm a determined, junior level coder versed in many
-            coding languages with proficiency in the front end frameworks. My
-            heavy background in technical skills, complex systems, and analysis
-            offers a unique adaptability towards learning new skills. I take
-            pride in my customer service and professionalism, developed over
-            many years in the health care field.
+          Hello, I'm Andy, a determined and versatile junior-level coder proficient in various coding languages and front-end frameworks. With a strong technical background in complex systems and analysis, I have developed a unique adaptability towards learning new skills. My commitment to exceptional customer service and professionalism stems from my extensive experience in the healthcare field.
           </p>
 
           <p>
-            From RNA to React.js, I do well within systems. I transitioned to
-            coding because it is a way to use my technical abilities to produce
-            something tangible (albeit technically intangible). I succeed in
-            analyzing profound amounts of data, and with coding, I get to use
-            the analytical skills I've been practicing in the scientific field
-            towards a practical, polished endpoint.
+          From RNA to React.js, I excel at working within complex systems. Transitioning to coding has allowed me to leverage my technical abilities to produce tangible outcomes. As someone who thrives on analyzing vast amounts of data, I find satisfaction in using my analytical skills honed in the scientific field to achieve practical, polished endpoints through coding.
           </p>
           <br></br>
 
