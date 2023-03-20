@@ -1,7 +1,7 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
-
+import Typography from "@mui/material/Typography";
 
 import "./bio.scss";
 import resumeData from "../../resumeData.js";
@@ -20,12 +20,26 @@ export default function Bio() {
             className="andyPic"
           ></img>
 
-          <h1>Thanks for visiting.</h1>
-          <h3>
+<Typography
+              variant="h4"
+              noWrap
+              id="works"
+              sx={{
+                
+                display: { xs: "flex", md: "flex" },
+                fontFamily: "monospace",
+                fontWeight: 700,
+                
+                color: "black",
+                textDecoration: "none",
+              }}
+            >Thanks for visiting.
+              </Typography>
+          {/* <h3>
             <a href="mailto:humes.andrew@gmail.com" className="mailLink">
               humes.andrew@gmail.com
             </a>
-          </h3>
+          </h3> */}
         </Grid>
         <Grid item md={7} sm={12} xs={12} className="rightBioGrid">
           <p>
