@@ -185,7 +185,7 @@ const TopApp = () => {
                   onClick={handleOpenUserMenu}
                   
                 >
-                  <Avatar alt="Andy Humes Portfolio" src={resumeData.image} />
+                  <Avatar alt="Andy Humes Portfolio" src={resumeData.image2} />
                 </IconButton>
               </Tooltip>
               <Menu
