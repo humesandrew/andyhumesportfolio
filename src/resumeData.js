@@ -178,13 +178,13 @@ let resumeData = {
         // },
         {
           "id":"4",
-          "name":"College-Cooking",
-          "description":"A food blog about cooking on a budget. Create a new user, login, and blog away about your favorite dishes that don't break the bank.",
+          "name":"Portfolio - JS",
+          "description":"My portfolio in vanialla JS.",
           "technologies":"MongoDB, Material UI, React",
           "url":"https://the-mern-blog-frontend.onrender.com/",
           "url2":"https://github.com/humesandrew/The-MERN-Blog-Frontend",
           "url3":"https://github.com/humesandrew/The-MERN-Blog-Backend",
-          "image":"img/collegecooking.jpg",
+          "image":"img/portfolio3thumb.jpg",
           "theme":"dark"
         },
      
