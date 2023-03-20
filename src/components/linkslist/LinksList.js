@@ -4,11 +4,8 @@ import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 
-
-
 import Button from "@mui/material/Button";
 import ImageListItemBar from "@mui/material/ImageListItemBar";
-
 
 import "./linkslist.css";
 import resumeData from "../../resumeData.js";
@@ -27,9 +24,6 @@ const resumeCard = function () {
   window.open(resumeData.resume);
 };
 
-
-
-
 export default function LinksList() {
   return (
     <Box className="linksListContainer" sx={{ flexGrow: 1 }}>
@@ -44,7 +38,6 @@ export default function LinksList() {
             className="imageTitleText"
             title="Works"
             alt="Works link"
-            
           ></ImageListItemBar>
         </CardContent>
       </Card>
@@ -69,34 +62,19 @@ export default function LinksList() {
         component={Button}
         onClick={resumeCard}
       >
-        <CardContent 
-                       
-                         >
+        <CardContent>
           <ImageListItemBar
             className="imageTitleText"
             title="Resume"
             alt="Resume link"
-          
-   
-         
           ></ImageListItemBar>
         </CardContent>
       </Card>
-      <Card  sx={{ maxWidth: 125, height: 250 }}>
-      <EducationModal
-      >
-      
-          
-      
-      </EducationModal>
+      <Card sx={{ maxWidth: 125, height: 250 }}>
+        <EducationModal></EducationModal>
       </Card>
-      <Card  sx={{ maxWidth: 125, height: 300 }}>
-      <ExtrasModal
-      >
-      
-          
-      
-      </ExtrasModal>
+      <Card sx={{ maxWidth: 125, height: 300 }}>
+        <ExtrasModal></ExtrasModal>
       </Card>
     </Box>
   );

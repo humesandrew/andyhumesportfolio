@@ -92,7 +92,7 @@ export default function Works() {
         value={value}
         wrap="wrap"
         onChange={handleChange}
-        aria-label="Vertical tabs example"
+        aria-label="Vertical tabs"
         sx={{ borderRight: 1, borderColor: "divider" }}
       >
         <Tab label="Java4Java" {...a11yProps(0)} />
