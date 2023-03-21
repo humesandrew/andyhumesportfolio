@@ -145,7 +145,18 @@ let resumeData = {
           "url2":"https://github.com/humesandrew/Belly-Buster",
           "image":"img/bellybusterthumb.png",
           "theme":"light"
-        },],
+        },
+        {
+          "id":"4",
+          "name":"College Cooking",
+          "description":"Welcome to College Cooking.",
+          "technologies":"JavaScript, HTML, CSS",
+          "url":"https://the-mern-blog-frontend.onrender.com/",
+          "url2":"https://github.com/humesandrew/The-MERN-Blog-/",
+          "image":"img/collegecooking.jpg",
+          "theme":"light"
+        },
+      ],
 
       "project":[
         // {

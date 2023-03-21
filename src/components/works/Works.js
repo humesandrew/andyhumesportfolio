@@ -7,6 +7,7 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import ChartMdItem from "../chartmditem/ChartMdItem";
 import J4JItem from "../j4jitem/J4JItem";
+import CollegeCooking from "../collegecooking/CollegeCooking";
 import BellyBusterItem from "../bellybusteritem/BellyBusterItem";
 import JsPortfolioItem from "../jsportfolioitem/JsPortfolioItem";
 import EcommerceItem from "../ecommerceitem/EcommerceItem";
@@ -95,37 +96,41 @@ export default function Works() {
         aria-label="Vertical tabs"
         sx={{ borderRight: 1, borderColor: "divider" }}
       >
-        <Tab label="Java4Java" {...a11yProps(0)} />
-        <Tab label="ChartMD" {...a11yProps(1)} />
-        <Tab label="Belly-Buster" {...a11yProps(2)} />
-        <Tab label="Portfolio: JS" {...a11yProps(3)} />
-        <Tab label="E-Commerce" {...a11yProps(4)} />
-        <Tab label="Tic-Tac-React" {...a11yProps(5)} />
-        <Tab label="Scheduler" {...a11yProps(6)} />
-        <Tab label="Employee Directory" {...a11yProps(7)} />
+        <Tab label="College Cooking" {...a11yProps(0)} />
+        <Tab label="Java4Java" {...a11yProps(1)} />
+        <Tab label="ChartMD" {...a11yProps(2)} />
+        <Tab label="Belly-Buster" {...a11yProps(3)} />
+        <Tab label="Portfolio: JS" {...a11yProps(4)} />
+        <Tab label="E-Commerce" {...a11yProps(5)} />
+        <Tab label="Tic-Tac-React" {...a11yProps(6)} />
+        <Tab label="Scheduler" {...a11yProps(7)} />
+        <Tab label="Employee Directory" {...a11yProps(8)} />
       </Tabs>
       <TabPanel value={value} index={0}>
-        <J4JItem />
+        <CollegeCooking />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <ChartMdItem /> 
+        <J4JItem />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        <BellyBusterItem />
+        <ChartMdItem /> 
       </TabPanel>
       <TabPanel value={value} index={3}>
-        <JsPortfolioItem />
+        <BellyBusterItem />
       </TabPanel>
       <TabPanel value={value} index={4}>
-        <EcommerceItem />
+        <JsPortfolioItem />
       </TabPanel>
       <TabPanel value={value} index={5}>
-        <TicTacReact />
+        <EcommerceItem />
       </TabPanel>
       <TabPanel value={value} index={6}>
-        <DaySchedulerItem />
+        <TicTacReact />
       </TabPanel>
       <TabPanel value={value} index={7}>
+        <DaySchedulerItem />
+      </TabPanel>
+      <TabPanel value={value} index={8}>
         <EmployeeDirItem />
       </TabPanel>
     </Box>
