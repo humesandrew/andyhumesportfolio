@@ -156,6 +156,16 @@ let resumeData = {
           "image":"img/collegecooking.jpg",
           "theme":"light"
         },
+        {
+          "id":"5",
+          "name":"Brewery-Buster",
+          "description":"An application that lets you search for breweries in a particular city, and then locate them on a provided map. Belly-Buster is for the beer enthusiast who is a frequent traveler.",
+          "technologies":"React, Material UI, and the Open Brewery DB API.",
+          "url":"https://brewery-buster.netlify.app/",
+          "url2":"https://github.com/humesandrew/Brewery-Buster/",
+          "image":"img/brewerybuster.jpg",
+          "theme":"light"
+        },
       ],
 
       "project":[
