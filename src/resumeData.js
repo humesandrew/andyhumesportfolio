@@ -149,8 +149,8 @@ let resumeData = {
         {
           "id":"4",
           "name":"College Cooking",
-          "description":"Welcome to College Cooking.",
-          "technologies":"JavaScript, HTML, CSS",
+          "description":"A MERN-based blog application that allows users to sign up, login, authenticate with JSON Web Tokens (JWT), and post budget-friendly recipes.",
+          "technologies":"MongoDB, Express, React, Node, MaterialUI",
           "url":"https://the-mern-blog-frontend.onrender.com/",
           "url2":"https://github.com/humesandrew/The-MERN-Blog-/",
           "image":"img/collegecooking.jpg",
