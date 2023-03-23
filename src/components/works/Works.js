@@ -13,6 +13,7 @@ import EcommerceItem from "../ecommerceitem/EcommerceItem";
 import TicTacReact from "../tictacreact/TicTacReact";
 import DaySchedulerItem from "../dayscheduleritem/DaySchedulerItem";
 import EmployeeDirItem from "../employeediritem/EmployeeDirItem";
+import BreweryBuster from "../brewerybuster/BreweryBuster";
 
 import "./works.css";
 
@@ -96,6 +97,7 @@ export default function Works() {
         sx={{ borderRight: 1, borderColor: "divider" }}
       >
         <Tab label="College Cooking" {...a11yProps(0)} />
+        <Tab label="Brewery-Buster" {...a11yProps(8)} />
         <Tab label="Java4Java" {...a11yProps(1)} />
         <Tab label="ChartMD" {...a11yProps(2)} />
         <Tab label="Belly-Buster" {...a11yProps(3)} />
@@ -104,32 +106,37 @@ export default function Works() {
         <Tab label="Tic-Tac-React" {...a11yProps(5)} />
         <Tab label="Scheduler" {...a11yProps(6)} />
         <Tab label="Employee Directory" {...a11yProps(7)} />
+        
       </Tabs>
       <TabPanel value={value} index={0}>
         <CollegeCooking />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <J4JItem />
+        <BreweryBuster />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        <ChartMdItem /> 
+        <J4JItem />
       </TabPanel>
       <TabPanel value={value} index={3}>
+        <ChartMdItem /> 
+      </TabPanel>
+      <TabPanel value={value} index={4}>
         <BellyBusterItem />
       </TabPanel>
     
-      <TabPanel value={value} index={4}>
+      <TabPanel value={value} index={5}>
         <EcommerceItem />
       </TabPanel>
-      <TabPanel value={value} index={5}>
+      <TabPanel value={value} index={6}>
         <TicTacReact />
       </TabPanel>
-      <TabPanel value={value} index={6}>
+      <TabPanel value={value} index={7}>
         <DaySchedulerItem />
       </TabPanel>
-      <TabPanel value={value} index={7}>
+      <TabPanel value={value} index={8}>
         <EmployeeDirItem />
       </TabPanel>
+      
     </Box>
     </Container>
   );

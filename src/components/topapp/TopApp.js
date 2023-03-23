@@ -76,7 +76,7 @@ const TopApp = () => {
                 textDecoration: "none",
               }}
             >
-              Andy Humes - Junior Developer
+              Andy Humes - Software Developer
             </Typography>
 
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
