@@ -38,7 +38,7 @@ export default function Footer() {
           alignItems: "center",
         }}
       >
-        Portfolio developed by Andy Humes, 2022.
+        Portfolio developed by Andy Humes, 2023.
       </Typography>
       <div className='iconDiv'>
       <EmailIcon className="email"
