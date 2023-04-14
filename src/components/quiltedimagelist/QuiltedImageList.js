@@ -4,7 +4,7 @@ import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 // import { Link as RouterLink } from 'react-router-dom'
 import Link from '@mui/material/Link';
-
+import panoramaImg from '../img/panorama.png';
 
 import "./quiltedimagelist.css";
 import resumeData from "../../resumeData.js";
@@ -32,7 +32,7 @@ export default function Junk() {
     </ImageList>
   );
 }
-
+//// for some reason index 1 Technologies the picture just stopped posting one day//
 const itemData = [
   {
     img: 'https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.gettyimages.com.au%2Fgi-resources%2Fimages%2Ffrontdoor%2Fcreative%2FPanoramicImagesRM%2FFD_image.jpg&f=1',

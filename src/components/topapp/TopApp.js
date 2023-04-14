@@ -58,7 +58,7 @@ const TopApp = () => {
 
   return (
     <div>
-      <AppBar position="fixed">
+      <AppBar position="fixed" sx={{ opacity: "90%" }}>
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             <Typography
