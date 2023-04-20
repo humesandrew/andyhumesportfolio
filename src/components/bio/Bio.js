@@ -7,7 +7,7 @@ import "./bio.scss";
 import resumeData from "../../resumeData.js";
 import LinksList from "../linkslist/LinksList";
 
-
+/// well, Sarah suggested trying a template. So i'm going to take this down as of 4/19/23 //
 
 export default function Bio() {
   return (
