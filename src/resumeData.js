@@ -224,7 +224,7 @@ let resumeData = {
           "name":"Tic-Tac-React",
           "description":"A tic-tac-toe application using React, for your enjoyment.",
           "technologies":"React",
-          "url":"https://humestictacreact.herokuapp.com/",
+          "url":"https://atictacreact.netlify.app/",
           "url2":"https://github.com/humesandrew/ticTacReact",
           "image":"img/tictacreact.jpg",
           "theme":"light"
