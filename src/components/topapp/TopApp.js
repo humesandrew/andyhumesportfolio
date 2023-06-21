@@ -19,8 +19,6 @@ import DescriptionIcon from "@mui/icons-material/Description";
 import "./topapp.css";
 import resumeData from "../../resumeData.js";
 
-
-
 const emailBtn = function () {
   window.open("mailto:humes.andrew@gmail.com");
 };
@@ -35,7 +33,6 @@ const resumeBtn = function () {
 };
 
 const pages = ["Bio", "Works", "Credentials"];
-
 
 const TopApp = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -112,7 +109,14 @@ const TopApp = () => {
               >
                 {pages.map((page) => (
                   <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center" component='a' href={`#${page}`} sx={{ textDecoration: "none" }}>{page}</Typography>
+                    <Typography
+                      textAlign="center"
+                      component="a"
+                      href={`#${page}`}
+                      sx={{ textDecoration: "none" }}
+                    >
+                      {page}
+                    </Typography>
                   </MenuItem>
                 ))}
               </Menu>
@@ -134,16 +138,23 @@ const TopApp = () => {
                 textDecoration: "none",
               }}
             >
-              Andy Humes 
+              Andy Humes
             </Typography>
-            <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }} className='linkBtns'>
+            <Box
+              sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
+              className="linkBtns"
+            >
               {pages.map((page) => (
                 <Button
                   key={page}
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: "white", display: "block", textDecoration: "none" }}
+                  sx={{
+                    my: 2,
+                    color: "white",
+                    display: "block",
+                    textDecoration: "none",
+                  }}
                   href={`#${page}`}
-                  
                 >
                   {page}
                 </Button>
@@ -152,8 +163,11 @@ const TopApp = () => {
 
             <Box className="rightBox" sx={{ flexGrow: 0 }}>
               <Tooltip title="Email me">
-                <EmailIcon className="email" onClick={emailBtn} sx={{ p: 0 }}>
-                </EmailIcon>
+                <EmailIcon
+                  className="email"
+                  onClick={emailBtn}
+                  sx={{ p: 0 }}
+                ></EmailIcon>
               </Tooltip>
               <Tooltip title="LinkedIn profile">
                 <LinkedInIcon
@@ -183,7 +197,6 @@ const TopApp = () => {
                   }}
                   className="andy"
                   onClick={handleOpenUserMenu}
-                  
                 >
                   <Avatar alt="Andy Humes Portfolio" src={resumeData.image2} />
                 </IconButton>
@@ -206,7 +219,14 @@ const TopApp = () => {
               >
                 {pages.map((page) => (
                   <MenuItem key={page} onClick={handleCloseUserMenu}>
-                    <Typography textAlign="center" component='a' href={`#${page}`} sx={{ textDecoration: "none"}}>{page}</Typography>
+                    <Typography
+                      textAlign="center"
+                      component="a"
+                      href={`#${page}`}
+                      sx={{ textDecoration: "none" }}
+                    >
+                      {page}
+                    </Typography>
                   </MenuItem>
                 ))}
               </Menu>
