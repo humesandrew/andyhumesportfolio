@@ -48,6 +48,7 @@ export default function Bio() {
 
           <p>
           From RNA to React.js, I excel at working within complex systems. Transitioning to coding has allowed me to leverage my technical abilities to produce tangible outcomes. As someone who thrives on analyzing vast amounts of data, I find satisfaction in using my analytical skills honed in the scientific field to achieve practical, polished endpoints through coding.
+        
           </p>
           <br></br>
 
