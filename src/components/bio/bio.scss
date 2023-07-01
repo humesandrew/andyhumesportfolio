@@ -1,36 +1,32 @@
-
 .bioContainer {
-    margin-top: 70px;
+  margin-top: 70px;
+}
 
-}
 .bioCardBox {
-    display: flex;
-    flex-wrap: wrap;   
+  display: flex;
+  flex-wrap: wrap;
 }
-.mailLink{
- text-decoration: none;
- color: inherit;
+
+.mailLink {
+  text-decoration: none;
+  color: inherit;
 }
+
 .leftBioGrid {
   height: 100%;
   display: flex;
- justify-content: space-evenly;
+  justify-content: space-evenly;
   align-items: center;
- 
 }
+
 .rightBioGrid {
   height: 100%;
-
 }
-
-
 
 .andyPic {
-    border-radius: 25%;
-    max-width: 47%;
+  max-width: 47%;
   height: auto;
-
-  
+  border-radius: 50%;
+  box-shadow: -60px 0 120px 0 rgba(0, 0, 0, 0.6),
+              60px 0 120px 0 rgba(0, 0, 0, 0.6);
 }
-
-
