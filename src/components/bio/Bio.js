@@ -14,11 +14,13 @@ export default function Bio() {
     <Box className="bioContainer" sx={{ flexGrow: 1 }} id="Bio">
       <Grid container spacing={2} className="leftBioGrid">
         <Grid item md={5} sm={12} xs={12} className='pictureGrid' sx={{ display: { xs: "flex", md: "flex" }, flexDirection: "column", alignItems: "center" }}>
+          
           <img
             alt="Andy Humes - Junior Developer"
             src={resumeData.image}
             className="andyPic"
           ></img>
+<br></br>
 
 <Typography
               variant="h4"
